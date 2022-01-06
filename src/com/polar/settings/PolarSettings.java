@@ -1,4 +1,4 @@
-package com.polar.Settings;
+package com.polar.settings;
 
 import android.provider.SearchIndexableResource;
 import android.os.Bundle;
