@@ -1,6 +1,7 @@
 package com.polar.Settings;
 
 import android.provider.SearchIndexableResource;
+import android.os.Bundle;
 
 import com.android.settings.SettingsPreferenceFragment;
 
