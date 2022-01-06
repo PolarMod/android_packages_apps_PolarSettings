@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="polar_settings">Додаткові налаштування</string>
+  <string name="statusbar_category_title">Рядок стану і швидкі пермикачи</string>
+  <string name="statusbar_category_summary">Налаштуйте рядок стану, швидкі пермикачи і область повідомлень </string>    
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="polar_settings">Дополнительные настройки</string>
+  <string name="statusbar_category_title">Строка состояния и быстрые настройки</string>
+  <string name="statusbar_category_summary">Настройте строку состояния, быстрые настройки и облясть уведомлений</string>     
+</resources>
