@@ -3,4 +3,31 @@
   <string name="polar_settings">Additional settings</string>
   <string name="statusbar_category_title">Status bar and quick settings</string>
   <string name="statusbar_category_summary">Customize status bar, quick settings and notification area</string>  
+  <string name="traffic_title">Traffic indicator</string>
+  <string name="traffic_summary">Setup traffic indication in status bar</string>  
+    
+  <!-- Statusbar net monitor -->
+  <string name="traffic_title">Traffic indicators</string>
+  <string name="traffic_summary">Display Network traffic monitor in QS and statusbar</string>    
+  <string name="network_traffic_state_title">Network traffic</string>
+  <string name="network_traffic_state_summary">Show net activity in statusbar</string>
+  <string name="network_traffic">Network traffic</string>
+  <string name="network_traffic_location">Traffic indicator placement</string>
+  <string name="traffic_disabled">Disabled</string>
+  <string name="traffic_statusbar">Statusbar</string>
+  <string name="traffic_expanded_statusbar">Expanded Header</string>
+  <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
+  <string name="network_traffic_arrow">Show arrows</string>
+  <string name="network_traffic_arrow_summary">Show the network traffic indicator arrows</string>
+  <string name="network_traffic_type">Select net activity type</string>
+  <string name="show_network_traffic_combined">Combined (Upload + Download)</string>
+  <string name="show_network_traffic_dynamic">Dynamic</string>
+  <string name="show_network_traffic_up">Upload</string>
+  <string name="show_network_traffic_down">Download</string>
+  <string name="show_network_traffic_all">Both</string>
+  <string name="network_traffic_layout">Activity layout</string>
+  <string name="network_traffic_layout_h">Horizontal</string>
+  <string name="network_traffic_layout_v">Vertical</string>
+  <string name="nettraf_font_size">Single net font size</string>
+  
 </resources>
