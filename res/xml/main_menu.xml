@@ -2,12 +2,13 @@
  <PreferenceScreen
      xmlns:android="http://schemas.android.com/apk/res/android"
      android:title="@string/polar_settings"
-     android:key="carbonfibers_fragment"
+     android:key="polarsettings_fragment"
      xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
-     
+   <!--  
    <Preference
        android:fragment="com.polar.settings.fragments.statusbar.StatusBar"
        android:key="statusbar_category"
        android:title="@string/statusbar_category_title" 
        android:summary="@string/statusbar_category_summary" />
+   -->
 </PreferenceScreen>
