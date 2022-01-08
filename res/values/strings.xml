@@ -3,12 +3,10 @@
   <string name="polar_settings">Additional settings</string>
   <string name="statusbar_category_title">Status bar and quick settings</string>
   <string name="statusbar_category_summary">Customize status bar, quick settings and notification area</string>  
-  <string name="traffic_title">Traffic indicator</string>
-  <string name="traffic_summary">Setup traffic indication in status bar</string>  
     
   <!-- Statusbar net monitor -->
   <string name="traffic_title">Traffic indicators</string>
-  <string name="traffic_summary">Display Network traffic monitor in QS and statusbar</string>    
+  <string name="traffic_summary">Display Network traffic monitor in quick settings and statusbar</string>    
   <string name="network_traffic_state_title">Network traffic</string>
   <string name="network_traffic_state_summary">Show net activity in statusbar</string>
   <string name="network_traffic">Network traffic</string>
@@ -20,7 +18,7 @@
   <string name="network_traffic_arrow">Show arrows</string>
   <string name="network_traffic_arrow_summary">Show the network traffic indicator arrows</string>
   <string name="network_traffic_type">Select net activity type</string>
-  <string name="show_network_traffic_combined">Combined (Upload + Download)</string>
+  <string name="show_network_traffic_combined">Combined (Upload and download)</string>
   <string name="show_network_traffic_dynamic">Dynamic</string>
   <string name="show_network_traffic_up">Upload</string>
   <string name="show_network_traffic_down">Download</string>
