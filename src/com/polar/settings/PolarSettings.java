@@ -9,6 +9,7 @@ import android.provider.Settings;
 import android.os.Bundle;
 
 import com.android.settings.SettingsPreferenceFragment;
+import com.android.settings.R;
 
 import com.android.internal.logging.nano.MetricsProto;
 
