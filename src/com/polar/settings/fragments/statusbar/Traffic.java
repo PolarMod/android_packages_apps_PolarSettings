@@ -50,8 +50,8 @@ import android.provider.SearchIndexableResource;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
 
-import com.sakura.settings.preferences.CustomSeekBarPreference;
-import com.sakura.settings.preferences.SystemSettingSwitchPreference;
+import com.polar.settings.preferences.CustomSeekBarPreference;
+import com.polar.settings.preferences.SystemSettingSwitchPreference;
 
 import java.util.Arrays;
 import java.util.List;
