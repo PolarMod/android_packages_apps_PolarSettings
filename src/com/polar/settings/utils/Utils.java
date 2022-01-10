@@ -9,6 +9,6 @@ public class Utils{
     if(mTelephony == null){
       return false;
     }
-    return telephony.isVoiceCapable();
+    return mTelephony.isVoiceCapable();
   }
 }
