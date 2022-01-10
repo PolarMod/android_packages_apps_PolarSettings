@@ -13,7 +13,7 @@ import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 
-import com.polar.settings.utils.Utils;
+import com.polar.settings.utils;
 //TODO: make StatusBar Indexable
 
 public class StatusBar extends SettingsPreferenceFragment{
