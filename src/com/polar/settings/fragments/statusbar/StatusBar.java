@@ -8,10 +8,11 @@ import android.app.FragmentTransaction;
 import android.content.Context;
 import android.provider.Settings;
 import android.os.Bundle;
+
 import androidx.preference.Preference;
 import androidx.preference.PreferenceScreen;
 import androidx.preference.PreferenceCategory;
-
+import androidx.preference.SwitchPreference;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
