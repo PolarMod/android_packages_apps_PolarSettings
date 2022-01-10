@@ -1,4 +1,4 @@
-package comp.polar.settings.utils;
+package com.polar.settings.utils;
 
 import android.content.Context;
 import android.telephony.TelephonyManager;
