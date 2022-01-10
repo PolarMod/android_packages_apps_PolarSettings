@@ -28,4 +28,7 @@
   <string name="network_traffic_layout_v">Vertical</string>
   <string name="nettraf_font_size">Single net font size</string>
   
+  <!-- 4G icon -->
+  <string name="show_4g_icon_title">Use 4G icon</string>
+  <string name="show_4g_icon_summary">Show 4G icon instead of LTE</string>  
 </resources>

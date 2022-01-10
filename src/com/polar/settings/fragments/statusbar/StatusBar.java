@@ -13,6 +13,7 @@ import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 
+import com.polar.settings.utils.Utils;
 //TODO: make StatusBar Indexable
 
 public class StatusBar extends SettingsPreferenceFragment{
@@ -21,6 +22,14 @@ public class StatusBar extends SettingsPreferenceFragment{
   public void onCreate(Bundle savedInstanceState){
     super.onCreate(savedInstanceState);
     addPreferencesFromResource(R.xml.statusbar);
+    PreferenceScreen mPreferences = getPreferenceScreen();
+    
+    mShow4G = (SwitchPreference) findPreference("show_fourg_icon");
+
+    if(!Utils.isPhone(getActivity())){
+      mPreferences.removePreference(mShow4G);
+    }
+
   }
 
   @Override
