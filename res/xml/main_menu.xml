@@ -9,4 +9,11 @@
        android:key="statusbar_category"
        android:title="@string/statusbar_category_title" 
        android:summary="@string/statusbar_category_summary" />
+    <PreferenceScreen
+       android:title="@string/weather_config_title"
+       android:summary="@string/weather_config_summary" >
+       <intent android:action="android.intent.action.MAIN"
+               android:targetPackage="org.omnirom.omnijaws"
+               android:targetClass="org.omnirom.omnijaws.SettingsActivityService" />
+    </PreferenceScreen>     
 </PreferenceScreen>

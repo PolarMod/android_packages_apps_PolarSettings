@@ -2,8 +2,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="polar_settings">Additional settings</string>
   <string name="statusbar_category_title">Status bar and quick settings</string>
-  <string name="statusbar_category_summary">Customize status bar, quick settings and notification area</string>  
-    
+  <string name="statusbar_category_summary">Customize status bar, quick settings and notification area</string>      
   <!-- Statusbar net monitor -->
   <string name="traffic_title">Traffic indicators</string>
   <string name="traffic_summary">Display Network traffic monitor in quick settings and statusbar</string>    
@@ -26,9 +25,11 @@
   <string name="network_traffic_layout">Activity layout</string>
   <string name="network_traffic_layout_h">Horizontal</string>
   <string name="network_traffic_layout_v">Vertical</string>
-  <string name="nettraf_font_size">Single net font size</string>
-  
+  <string name="nettraf_font_size">Single net font size</string>  
   <!-- 4G icon -->
   <string name="show_4g_icon_title">Use 4G icon</string>
   <string name="show_4g_icon_summary">Show 4G icon instead of LTE</string>  
+  <!-- Weather -->  
+  <string name="weather_config_title">Weather</string>
+  <string name="weather_config_summary">Configure weather provider</string>
 </resources>
