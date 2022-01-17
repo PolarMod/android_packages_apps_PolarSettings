@@ -31,10 +31,13 @@
   <string name="show_4g_icon_summary">Show 4G icon instead of LTE</string>  
   <!-- Weather -->  
   <string name="weather_config_title">Weather</string>
-  <string name="weather_config_summary">Configure weather provider</string>
+  <string name="weather_config_summary">Configure weather provider</string> 
   <!-- Interface -->
   <string name="interface_category_title">Interface</string>
   <string name="interface_category_summary">Customize lockscreen, themes and animations</string>  
+  <!-- Interface: lockscreen weather -->  
   <string name="show_lockscreen_weather_title">Show weather on a lock screen</string>
   <string name="show_lockscreen_weather_summary">Show current weather conditions when screen is locked</string>
+  <string name="lockscreen_weather_style_title">Show weather conditions on one line with date</string>
+  <string name="lockscrren_weather_style_summary">When disabled weather is shown on separate line under date</string>  
 </resources>

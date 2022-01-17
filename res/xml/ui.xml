@@ -4,9 +4,14 @@
      android:title="@string/interface_category_title"
      android:key="interface"
      xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">  
-   <com.polar.settings.preferences.SystemSettingSwitchPreference
+    <com.polar.settings.preferences.SystemSettingSwitchPreference
        android:key="lockscreen_weather_enabled"
        android:title="@string/show_lockscreen_weather_title"
        android:summary="@string/show_lockscreen_weather_summary"
        android:defaultValue="false"/>  
+    <com.polar.settings.preferences.SystemSettingSwitchPreference
+       android:key="lockscreen_weather_style"
+       android:title="@string/lockscreen_weather_style_title"
+       android:summary="@string/lockscreen_weather_style_summary"
+       android:defaultValue="false" />  
 </PreferenceScreen>
