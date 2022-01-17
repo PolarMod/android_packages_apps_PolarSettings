@@ -9,7 +9,12 @@
        android:key="statusbar_category"
        android:title="@string/statusbar_category_title" 
        android:summary="@string/statusbar_category_summary" />
-    <PreferenceScreen
+   <Preference
+       android:fragment="com.polar.settings.fragments.ui.UI"
+       android:key="interface_category"
+       android:title="@string/interface_category_title"
+      android:summary="@string/interface_category_summary" />
+   <PreferenceScreen
        android:title="@string/weather_config_title"
        android:summary="@string/weather_config_summary" >
        <intent android:action="android.intent.action.MAIN"

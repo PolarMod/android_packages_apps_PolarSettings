@@ -32,4 +32,9 @@
   <!-- Weather -->  
   <string name="weather_config_title">Weather</string>
   <string name="weather_config_summary">Configure weather provider</string>
+  <!-- Interface -->
+  <string name="interface_category_title">Interface</string>
+  <string name="interface_category_summary">Customize lockscreen, themes and animations</string>  
+  <string name="show_lockscreen_weather_title">Show weather on a lock screen</string>
+  <string name="show_lockscreen_weather_summary">Show current weather conditions when screen is locked</string>
 </resources>
