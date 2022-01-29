@@ -13,5 +13,9 @@
        android:key="lockscreen_weather_style"
        android:title="@string/lockscreen_weather_style_title"
        android:summary="@string/lockscreen_weather_style_summary"
-       android:defaultValue="false" />  
+       android:defaultValue="false" /> 
+    <ListPreference
+       android:key="weather_icon_pack"
+       android:title="@string/weather_icon_pack_title"
+       android:persistent="false" />
 </PreferenceScreen>
