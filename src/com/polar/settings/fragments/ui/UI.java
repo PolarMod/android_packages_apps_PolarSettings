@@ -29,7 +29,7 @@ import java.util.ArrayList;
 
 //TODO: make UI Indexable
 
-public class UI extends SettingsPreferenceFragment{
+public class UI extends SettingsPreferenceFragment implements Preference.OnPreferenceChangeListener{
   private static final String TAG = "Settings.PolarSettings.fragments.UI";
 
   private static final String WEATHER_ICON_PACK = "weather_icon_pack";
