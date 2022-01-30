@@ -18,4 +18,10 @@
        android:key="weather_icon_pack"
        android:title="@string/weather_icon_pack_title"
        android:persistent="false" />
+    <com.polar.settings.preferences.SystemSettingListPreference
+       android:key="qs_datausage"
+       android:title="@string/qs_datausage_title"
+       android:entries="@array/qs_datausage_entries"
+       android:entryValues="@array/qs_datausage_values"
+       android:defaultValue="1" />  
 </PreferenceScreen>

@@ -41,4 +41,9 @@
   <string name="lockscreen_weather_style_title">Show weather conditions on one line with date</string>
   <string name="lockscreen_weather_style_summary">When disabled weather is shown on separate line under date</string>  
   <string name="weather_icon_pack_title">Weather icons</string>
+  <!-- QS datausage -->
+  <string name="qs_datausage_disabled">Disabled</string>
+  <string name="qs_datausage_daily">Daily</string>
+  <string name="qs_datausage_monthly">Monthly</string>
+  <string name="qs_datausage_title">Show datausage in quick settings</string>
 </resources>
