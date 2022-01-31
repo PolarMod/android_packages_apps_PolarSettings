@@ -14,8 +14,7 @@
        android:title="@string/show_4g_icon_title"
        android:summary="@string/show_4g_icon_summary"
        android:defaultValue="true"/>  
-      <!-- OOS style material dismiss all button for notifications -->
-   <com.sakura.settings.preferences.SystemSettingSwitchPreference
+   <com.polar.settings.preferences.SystemSettingSwitchPreference
        android:key="notification_material_dismiss"
        android:title="@string/notification_material_dismiss_button_title"
        android:summary="@string/notification_material_dismiss_button_summary"
