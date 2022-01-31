@@ -60,5 +60,8 @@
   <string name="sb_height_default">Default</string>
   <string name="sb_height_medium">Medium</string>
   <string name="sb_height_large">Large</string>
-  <string name="sb_height_extralarge">Extra Large</string>  
+  <string name="sb_height_extralarge">Extra Large</string> 
+  <!-- Material dismiss notification button -->
+  <string name="notification_material_dismiss_button_title">Floating button for clearing notifications</string>
+  <string name="notification_material_dismiss_button_summary">Replace clear all notification text with floating button</string>  
 </resources>
