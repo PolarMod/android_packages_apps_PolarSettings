@@ -19,4 +19,37 @@
        android:title="@string/notification_material_dismiss_button_title"
        android:summary="@string/notification_material_dismiss_button_summary"
        android:defaultValue="true" />  
+   <com.polar.settings.preferences.SystemSettingSeekBarPreference
+       android:key="qs_rows_portrait"
+       android:title="@string/qs_rows_portrait_title"
+       android:max="7"
+       android:min="1"
+       android:defaultValue="2"
+       settings:units="" />
+   <com.polar.settings.preferences.SystemSettingSeekBarPreference
+       android:key="qs_rows_landscape"
+       android:title="@string/qs_rows_landscape_title"
+       android:max="5"
+       android:min="1"
+       android:defaultValue="2"
+       settings:units="" />
+   
+   <com.polar.settings.preferences.SystemSettingSeekBarPreference
+       android:key="qs_columns_portrait"
+       android:title="@string/qs_columns_portrait_title"
+       android:max="9"
+       android:min="1"
+       android:defaultValue="4"
+       settings:units="" />
+
+   <com.polar.settings.preferences.SystemSettingSeekBarPreference
+        android:key="qs_columns_landscape"
+        android:title="@string/qs_columns_landscape_title"
+        android:max="9"
+        android:min="1"
+        android:defaultValue="4"
+        settings:units="" />
+
+
+
 </PreferenceScreen>
