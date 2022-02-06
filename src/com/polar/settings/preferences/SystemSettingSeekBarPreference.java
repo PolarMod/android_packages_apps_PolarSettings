@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.sakura.settings.preferences;
+package com.polar.settings.preferences;
 
 import android.content.Context;
 import android.util.AttributeSet;
