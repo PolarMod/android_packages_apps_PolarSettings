@@ -51,7 +51,7 @@
   <string name="gvisual_summary">Настройте высоту строки состояния и закругленность углов</string>
   <string name="rounded_ui_title">Закругленность углов</string>
   <string name="rounded_ui_dialog_title">Выберите режим закругленния углов</string>
-  <string name="rounded_style_default">По умолчанию/string>
+  <string name="rounded_style_default">По умолчанию</string>
   <string name="rounded_style_rectangle">Прямоугольные</string>
   <string name="rounded_style_large">Сильно закругленные</string>
   <string name="rounded_style_medium">Средне закругленные</string>
