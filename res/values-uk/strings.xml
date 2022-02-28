@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="polar_settings">Додаткові налаштування</string>
+  <string name="statusbar_category_title">Рядок стану та швидкі налаштування</string>
+  <string name="statusbar_category_summary">Налаштуйте рядок стану, область швидких налаштування та повідомлень</string>      
+  <!-- Statusbar net monitor -->
+  <string name="traffic_title">Індикація трафику</string>
+  <string name="traffic_summary">Налаштуйте індикатор мережевої активності у рядку стану</string>    
+  <string name="network_traffic_state_title">Індикаія трафику</string>
+  <string name="network_traffic_state_summary">Показати індикацію трафику у рядку стану</string>
+  <string name="network_traffic">Мережевий трафік</string>
+  <string name="network_traffic_location">Розміщення індикатору мережевого трафику</string>
+  <string name="traffic_disabled">Вимкнено</string>
+  <string name="traffic_statusbar">Рядок стану</string>
+  <string name="traffic_expanded_statusbar">Розширений заголовок</string>
+  <string name="network_traffic_autohide_threshold_title">Поріг приховування індікатора трафіка (KB/s)</string>
+  <string name="network_traffic_arrow">Показувати стрілки</string>
+  <string name="network_traffic_arrow_summary">Візуалізувати мережевої трафік стрілками</string>
+  <string name="network_traffic_type">Оберить тіп мережевої активності</string>
+  <string name="show_network_traffic_combined">Суміщений</string>
+  <string name="show_network_traffic_dynamic">Динамичній</string>
+  <string name="show_network_traffic_up">Вихідний</string>
+  <string name="show_network_traffic_down">Вхідний</string>
+  <string name="show_network_traffic_all">Обидва</string>
+  <string name="network_traffic_layout">Стиль індикатора</string>
+  <string name="network_traffic_layout_h">Горизонтальний</string>
+  <string name="network_traffic_layout_v">Вертикальний</string>
+  <string name="nettraf_font_size">Розмір шрифту мережевого індикатора</string>  
+  <!-- 4G icon -->
+  <string name="show_4g_icon_title">Використати іконку 4G</string>
+  <string name="show_4g_icon_summary">Використати іконку 4G замість LTE</string>  
+  <!-- Weather -->  
+  <string name="weather_config_title">Погода</string>
+  <string name="weather_config_summary">Налаштування системного постачальника погоди</string> 
+  <!-- Interface -->
+  <string name="interface_category_title">Інтерфейс</string>
+  <string name="interface_category_summary">Налаштуйте екран блокування, теми та анімаціі</string>  
+  <!-- Interface: lockscreen weather -->  
+  <string name="show_lockscreen_weather_title">Показувати погоду на екрані блокування</string>
+  <string name="show_lockscreen_weather_summary">Показати погодні умови, коли екран заблокован</string>
+  <string name="lockscreen_weather_style_title">Показати погодні умови на одному рядку с датою</string>
+  <string name="lockscreen_weather_style_summary">Коли, вимкнено погодні умови будуть показні на окремому рядку с назвою міста</string>  
+  <string name="weather_icon_pack_title">Іконки погоди</string>
+  <!-- QS datausage -->
+  <string name="qs_datausage_disabled">Вимкнено</string>
+  <string name="qs_datausage_daily">Щоденне</string>
+  <string name="qs_datausage_monthly">Місячне</string>
+  <string name="qs_datausage_title">Показувати використання даних у швидких налаштуваннях</string>
+  <!-- G-Visual mod -->
+  <string name="gvisual_title">G-Visual Mod</string>
+  <string name="gvisual_summary">Налаштуйте висоту рядку стану и закругленість кутів</string>
+  <string name="rounded_ui_title">Закругленість кутів</string>
+  <string name="rounded_ui_dialog_title">Оберить режим закруглення кутів</string>
+  <string name="rounded_style_default">За замовчуванням</string>
+  <string name="rounded_style_rectangle">Прямоугольні</string>
+  <string name="rounded_style_large">Сильно закруглені</string>
+  <string name="rounded_style_medium">Середне закруглені</string>
+  <string name="statusbar_height_title">Висота рядку стану</string>
+  <string name="statusbar_height_dialog_title">Оберить висоту рядку стану</string>
+  <string name="sb_height_default">За замовчуванням</string>
+  <string name="sb_height_medium">Нормальная</string>
+  <string name="sb_height_large">Висока</string>
+  <string name="sb_height_extralarge">Дуже висока</string> 
+  <!-- Material dismiss notification button -->
+  <string name="notification_material_dismiss_button_title">Плаваюча кнопка для очищення повідомлень</string>
+  <string name="notification_material_dismiss_button_summary">Замінити текст "Очистити усе" на плаваючу кнопку</string>  
+  <!-- QS rows/columns -->
+  <string name="sysui_qqs_count_title">Колонки швидких налаштувань</string>
+  <string name="qs_layout_category">Зовнішній вигляд</string>
+  <string name="qs_column_rows_settings_title">На панелі швидких налаштувань</string>
+  <string name="qs_columns_rows_category_title">Розмір панелі швидких налаштувань</string>
+  <string name="qs_rows_columns_title">Швидкі налаштування</string>
+  <string name="qs_rows_portrait_title">Рядки у портретному режимі</string>
+  <string name="qs_rows_landscape_title">Ряки у альбомному режимі</string>
+  <string name="qs_columns_portrait_title">Колонки у портретному режимі</string>
+  <string name="qs_columns_landscape_title">Колонки у альбомному режимі</string>
+</resources>
