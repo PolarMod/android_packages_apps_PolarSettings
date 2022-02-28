@@ -24,12 +24,17 @@ import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 
+import com.android.settings.search.BaseSearchIndexProvider;
+import com.android.settingslib.search.Indexable;
+import com.android.settingslib.search.SearchIndexable;
+
 import java.util.List;
 import java.util.ArrayList;
 
 //TODO: make UI Indexable
 
-public class UI extends SettingsPreferenceFragment implements Preference.OnPreferenceChangeListener{
+public class UI extends SettingsPreferenceFragment 
+  implements Preference.OnPreferenceChangeListener, Indexable{
   private static final String TAG = "Settings.PolarSettings.fragments.UI";
 
   private static final String WEATHER_ICON_PACK = "weather_icon_pack";
@@ -141,4 +146,25 @@ public class UI extends SettingsPreferenceFragment implements Preference.OnPrefe
   public int getMetricsCategory() {
     return MetricsEvent.POLAR_SETTINGS;
   }
+
+  public static final SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
+    new BaseSearchIndexProvider() {
+                @Override
+                public List<SearchIndexableResource> getXmlResourcesToIndex(Context context,
+                                                                            boolean enabled) {
+                    ArrayList<SearchIndexableResource> result =
+                            new ArrayList<SearchIndexableResource>();
+
+                    SearchIndexableResource sir = new SearchIndexableResource(context);
+                    sir.xmlResId = R.xml.ui;
+                    result.add(sir);
+                    return result;
+                }
+
+                @Override
+                public List<String> getNonIndexableKeys(Context context) {
+                    List<String> keys = super.getNonIndexableKeys(context);
+                    return keys;
+                }
+   };
 }

@@ -16,12 +16,13 @@ import androidx.preference.SwitchPreference;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
+import com.android.settingslib.search.Indexable;
+import com.android.settingslib.search.SearchIndexable;
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
-
 import com.polar.settings.utils.Utils;
 //TODO: make StatusBar Indexable
 
-public class StatusBar extends SettingsPreferenceFragment{
+public class StatusBar extends SettingsPreferenceFragment implements Indexable{
    
   private SwitchPreference mShow4G;
   
@@ -44,4 +45,25 @@ public class StatusBar extends SettingsPreferenceFragment{
   public int getMetricsCategory() {
     return MetricsEvent.POLAR_SETTINGS;
   }
+
+   public static final SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
+            new BaseSearchIndexProvider() {
+                @Override
+                public List<SearchIndexableResource> getXmlResourcesToIndex(Context context,
+                                                                            boolean enabled) {
+                    ArrayList<SearchIndexableResource> result =
+                            new ArrayList<SearchIndexableResource>();
+
+                    SearchIndexableResource sir = new SearchIndexableResource(context);
+                    sir.xmlResId = R.xml.statusbar;
+                    result.add(sir);
+                    return result;
+                }
+
+                @Override
+                public List<String> getNonIndexableKeys(Context context) {
+                    List<String> keys = super.getNonIndexableKeys(context);
+                    return keys;
+                }
+            };
 }
