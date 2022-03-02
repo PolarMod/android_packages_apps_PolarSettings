@@ -31,8 +31,7 @@ import com.android.settingslib.search.SearchIndexable;
 import java.util.List;
 import java.util.ArrayList;
 
-//TODO: make UI Indexable
-
+@SearchIndexable
 public class UI extends SettingsPreferenceFragment 
   implements Preference.OnPreferenceChangeListener, Indexable{
   private static final String TAG = "Settings.PolarSettings.fragments.UI";

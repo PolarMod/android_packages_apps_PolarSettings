@@ -26,6 +26,7 @@ import com.polar.settings.utils.Utils;
 import java.util.ArrayList;
 import java.util.List;
 
+@SearchIndexable
 public class StatusBar extends SettingsPreferenceFragment implements Indexable{
    
   private SwitchPreference mShow4G;
