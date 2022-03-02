@@ -20,7 +20,10 @@ import com.android.settingslib.search.Indexable;
 import com.android.settingslib.search.SearchIndexable;
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.polar.settings.utils.Utils;
-//TODO: make StatusBar Indexable
+
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class StatusBar extends SettingsPreferenceFragment implements Indexable{
    

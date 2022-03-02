@@ -17,6 +17,10 @@ import com.android.settingslib.search.SearchIndexable;
 
 import com.android.internal.logging.nano.MetricsProto;
 
+
+import java.util.ArrayList;
+import java.util.List;
+
 public class PolarSettings extends SettingsPreferenceFragment implements Indexable{
 
   @Override
