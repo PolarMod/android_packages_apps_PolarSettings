@@ -19,6 +19,7 @@ import androidx.preference.PreferenceScreen;
 import androidx.preference.PreferenceCategory;
 import androidx.preference.SwitchPreference;
 import androidx.preference.ListPreference;
+import android.os.SystemProperties;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
@@ -56,6 +57,11 @@ public class UI extends SettingsPreferenceFragment
               settingHeaderPackage = DEFAULT_WEATHER_ICON_PACKAGE + "." + DEFAULT_WEATHER_ICON_PREFIX;
         }
         mWeatherIconPack = (ListPreference) findPreference(WEATHER_ICON_PACK);
+     
+        if(!SystemProperties.getBoolean("ro.system.supports_gvisual", false)){
+           Preference mGvisual = (Preference) findPreference("gvisual_category");
+           prefScreen.removePreference(mGvisual);
+        }
 
         List<String> entries = new ArrayList<String>();
         List<String> values = new ArrayList<String>();
