@@ -108,6 +108,10 @@ public class Traffic extends SettingsPreferenceFragment implements OnPreferenceC
         mThreshold.setValue(trafvalue);
         mThreshold.setOnPreferenceChangeListener(this);
         mShowArrows = (SystemSettingSwitchPreference) findPreference("network_traffic_arrow");
+        
+        //Remove non-working preferences
+        prefSet.removePreference(mShowArrows);
+        prefSet.removePreference(mNetTrafficSize);
 
         int netMonitorEnabled = Settings.System.getIntForUser(resolver,
                 Settings.System.NETWORK_TRAFFIC_STATE, 0, UserHandle.USER_CURRENT);
