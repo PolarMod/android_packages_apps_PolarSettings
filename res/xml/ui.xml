@@ -24,9 +24,4 @@
        android:entries="@array/qs_datausage_entries"
        android:entryValues="@array/qs_datausage_values"
        android:defaultValue="1" />  
-    <Preference
-       android:fragment="com.polar.settings.fragments.ui.gvisual.GVisual"
-       android:key="gvisual_category"
-       android:title="@string/gvisual_title" 
-       android:summary="@string/gvisual_summary" />  
 </PreferenceScreen>
