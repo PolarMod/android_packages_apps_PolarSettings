@@ -58,10 +58,6 @@ public class UI extends SettingsPreferenceFragment
         }
         mWeatherIconPack = (ListPreference) findPreference(WEATHER_ICON_PACK);
      
-        if(!SystemProperties.getBoolean("ro.system.supports_gvisual", false)){
-           Preference mGvisual = (Preference) findPreference("gvisual_category");
-           prefScreen.removePreference(mGvisual);
-        }
 
         List<String> entries = new ArrayList<String>();
         List<String> values = new ArrayList<String>();
