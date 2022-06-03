@@ -16,7 +16,6 @@
        android:defaultValue="true" />
     <com.polar.settings.preferences.SystemSettingSwitchPreference
         android:key="three_finger_gesture"
-        android:icon="@drawable/ic_three_finger_gesture"
         android:title="@string/three_finger_gesture"
         android:summary="@string/three_finger_gesture_summary"
         android:defaultValue="false" />
