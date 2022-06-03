@@ -75,6 +75,7 @@
   <string name="qs_columns_portrait_title">Columns (Portrait)</string>
   <string name="qs_columns_landscape_title">Columns (Landscape)</string>
   <!-- Face unlock -->
+  <string name="security_settings_face_settings_footer_custom">[UNKNOWN STRING]</string>
   <string name="security_settings_face_unlock_redo_face_scan_summary">Remove existing face scan and create a new scan</string>
   <string name="security_settings_face_unlock_redo_face_scan_title">Redo face scan</string>
   <string name="face_redo_confirm_btn">Redo</string>
