@@ -86,4 +86,7 @@
   <!-- Three-Finger screenshot -->
   <string name="three_finger_gesture">Swipe to screenshot</string>
   <string name="three_finger_gesture_summary">Swipe three fingers to take screenshot</string>
+  <!-- Old mobiletype icon style -->
+  <string name="old_mobiletype_title">Old style signal icon</string>
+  <string name="old_mobiletype_summary">Merge signal and signal type icons</string>
 </resources>

@@ -30,7 +30,8 @@ import java.util.List;
 public class StatusBar extends SettingsPreferenceFragment implements Indexable{
    
   private SwitchPreference mShow4G;
-  
+  private SwitchPreference mOldSignalIndicator;  
+
   @Override
   public void onCreate(Bundle savedInstanceState){
     super.onCreate(savedInstanceState);
@@ -39,11 +40,11 @@ public class StatusBar extends SettingsPreferenceFragment implements Indexable{
     PreferenceScreen mPreferences = getPreferenceScreen();
      
     mShow4G = (SwitchPreference) findPreference("show_fourg_icon");
-
+    mOldSignalIndicator = (SwitchPreference) findPreference("use_old_mobiletype");
     if(!Utils.isPhone(getActivity())){
       mPreferences.removePreference(mShow4G);
+      mPreferences.removePreference(mOldSignalIndicator);
     }
-
   }
 
   @Override
@@ -68,6 +69,10 @@ public class StatusBar extends SettingsPreferenceFragment implements Indexable{
                 @Override
                 public List<String> getNonIndexableKeys(Context context) {
                     List<String> keys = super.getNonIndexableKeys(context);
+		    if(!Utils.isPhone(context)){
+			    keys.add("show_fourg_icon");
+			    keys.add("use_old_mobiletype");
+		    }
                     return keys;
                 }
             };

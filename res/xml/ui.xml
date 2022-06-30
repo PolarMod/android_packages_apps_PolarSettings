@@ -28,5 +28,9 @@
        android:title="@string/qs_datausage_title"
        android:entries="@array/qs_datausage_entries"
        android:entryValues="@array/qs_datausage_values"
-       android:defaultValue="1" />  
+       android:defaultValue="1" /> 
+   <com.polar.settings.preferences.SystemSettingSwitchPreference
+        android:key="use_old_mobiletype"
+        android:title="@string/old_mobiletype_title"
+        android:summary="@string/old_mobiletype_summary" />
 </PreferenceScreen>
