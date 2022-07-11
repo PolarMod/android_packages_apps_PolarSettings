@@ -49,6 +49,7 @@
   <string name="qs_datausage_disabled">Disabled</string>
   <string name="qs_datausage_daily">Daily</string>
   <string name="qs_datausage_monthly">Monthly</string>
+  <string name="qs_datausage_title">Show datausage in quick settings</string>
   <!-- Material dismiss all button -->
   <string name="notification_material_dismiss_button_title">Floating button for clearing notifications</string>
   <string name="notification_material_dismiss_button_summary">Replace clear all notification text with floating button</string>  

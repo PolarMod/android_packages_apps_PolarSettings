@@ -37,4 +37,13 @@
         <item>2</item>
         <item>3</item>
     </string-array>
+
+    <!-- QS datausage -->
+    <string-array name="qs_datausage_entries" translatable="false">
+        <item>@string/qs_datausage_disabled</item>
+        <item>@string/qs_datausage_daily</item>
+        <item>@string/qs_datausage_monthly</item>
+    </string-array>
+
+
 </resources>
