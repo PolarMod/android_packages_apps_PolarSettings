@@ -1,83 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Network traffic location -->
-  <!-- Imported from ProjectSakura -->
-    <string-array name="network_traffic_location_entries">
-        <item>@string/traffic_disabled</item>
-        <item>@string/traffic_statusbar</item>
+    <!-- Network traffic -->
+    <!-- Imported from crdroid -->
+    <string-array name="network_traffic_location_entries" translatable="false">
+        <item>@string/network_traffic_location_disable</item>
+        <item>@string/network_traffic_location_statusbar</item>
+        <item>@string/network_traffic_location_quick_statusbar</item>
     </string-array>
+
     <string-array name="network_traffic_location_values" translatable="false">
         <item>0</item>
         <item>1</item>
         <item>2</item>
     </string-array>
 
-    <!-- Network traffic type -->
-    <string-array name="show_network_traffic_type_entries" translatable="false">
-        <item>@string/show_network_traffic_combined</item>
-        <item>@string/show_network_traffic_dynamic</item>
-        <item>@string/show_network_traffic_up</item>
-        <item>@string/show_network_traffic_down</item>
-        <item>@string/show_network_traffic_all</item>
+    <string-array name="network_traffic_mode_entries" translatable="false">
+        <item>@string/network_traffic_mode_all</item>
+        <item>@string/network_traffic_mode_up</item>
+        <item>@string/network_traffic_mode_down</item>
     </string-array>
 
-    <string-array name="show_network_traffic_type_values" translatable="false">
-        <item>3</item>
-        <item>4</item>
-        <item>1</item>
-        <item>2</item>
-        <item>0</item>
-    </string-array>
-
-    <!-- Network Traffic Layout -->
-    <string-array name="network_traffic_layout_entries" translatable="false">
-        <item>@string/network_traffic_layout_h</item>
-        <item>@string/network_traffic_layout_v</item>
-    </string-array>
-
-    <string-array name="network_traffic_layout_values" translatable="false">
-        <item>0</item>
-        <item>1</item>
-    </string-array>
-
-    <string-array name="qs_datausage_entries" translatable="false">
-        <item>@string/qs_datausage_disabled</item>
-        <item>@string/qs_datausage_daily</item>
-        <item>@string/qs_datausage_monthly</item>
-    </string-array>
-
-    <string-array name="qs_datausage_values" translatable="false">
+    <string-array name="network_traffic_mode_values" translatable="false">
         <item>0</item>
         <item>1</item>
         <item>2</item>
     </string-array>
 
-    <!-- Gvisual mod -->
-    <string-array name="rounded_ui_titles">
-        <item>@string/rounded_style_default</item>
-        <item>@string/rounded_style_rectangle</item>
-        <item>@string/rounded_style_medium</item>
-        <item>@string/rounded_style_large</item>
+    <string-array name="network_traffic_units_entries" translatable="false">
+        <item>@string/network_traffic_units_bits</item>
+        <item>@string/network_traffic_units_bytes</item>
     </string-array>
 
-    <string-array name="rounded_ui_values">
+    <string-array name="network_traffic_units_values" translatable="false">
+        <item>0</item>
         <item>1</item>
         <item>2</item>
         <item>3</item>
-        <item>4</item>
-    </string-array>
-
-    <string-array name="statusbar_height_titles" translatable="false">
-        <item>@string/sb_height_default</item>
-        <item>@string/sb_height_medium</item>
-        <item>@string/sb_height_large</item>
-        <item>@string/sb_height_extralarge</item>
-    </string-array>
-
-    <string-array name="statusbar_height_values" translatable="false">
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
     </string-array>
 </resources>
