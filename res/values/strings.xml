@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Auxilary strings -->
+  <string name="unit_seconds">seconds</string>
   <string name="polar_settings">Additional settings</string>
   <string name="statusbar_category_title">Status bar and quick settings</string>
   <string name="statusbar_category_summary">Customize status bar, quick settings and notification area</string>      
