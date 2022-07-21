@@ -66,15 +66,5 @@
   <string name="sb_height_extralarge">Дуже висока</string> 
   <!-- Material dismiss notification button -->
   <string name="notification_material_dismiss_button_title">Плаваюча кнопка для очищення повідомлень</string>
-  <string name="notification_material_dismiss_button_summary">Замінити текст "Очистити усе" на плаваючу кнопку</string>  
-  <!-- QS rows/columns -->
-  <string name="sysui_qqs_count_title">Колонки швидких налаштувань</string>
-  <string name="qs_layout_category">Зовнішній вигляд</string>
-  <string name="qs_column_rows_settings_title">На панелі швидких налаштувань</string>
-  <string name="qs_columns_rows_category_title">Розмір панелі швидких налаштувань</string>
-  <string name="qs_rows_columns_title">Швидкі налаштування</string>
-  <string name="qs_rows_portrait_title">Рядки у портретному режимі</string>
-  <string name="qs_rows_landscape_title">Ряки у альбомному режимі</string>
-  <string name="qs_columns_portrait_title">Колонки у портретному режимі</string>
-  <string name="qs_columns_landscape_title">Колонки у альбомному режимі</string>
+  <string name="notification_material_dismiss_button_summary">Замінити текст "Очистити усе" на плаваючу кнопку</string>   
 </resources>
