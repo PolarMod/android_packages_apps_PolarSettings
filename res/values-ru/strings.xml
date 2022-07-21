@@ -3,6 +3,9 @@
   <string name="polar_settings">Дополнительные настройки</string>
   <string name="statusbar_category_title">Строка состояние и быстрые настройки</string>
   <string name="statusbar_category_summary">Настройте строку состояния, область быстрых настроек и уведомлений</string>      
+  <!-- UI strigs -->
+  <string name="additional_settings">Дополнительные настройки</string>
+  <string name="lockscreen_weather_title">Погода на экране блокировки</string>
   <!-- Statusbar strings -->
   <string name="network_icon_customization">Значок мобильной сети</string>
   <string name="additional_statusbar_settings">Дополнительные настройки</string>
@@ -44,26 +47,6 @@
   <string name="lockscreen_weather_style_title">Показать погодные условия на одной строке с датой</string>
   <string name="lockscreen_weather_style_summary">Когда, отключено погодные условия будут показны на отдельной строке с названием текущего города</string>  
   <string name="weather_icon_pack_title">Иконки погоды</string>
-  <!-- QS datausage -->
-  <string name="qs_datausage_disabled">Отключено</string>
-  <string name="qs_datausage_daily">Ежедневное</string>
-  <string name="qs_datausage_monthly">Месячное</string>
-  <string name="qs_datausage_title">Показать использование данных в быстрых настройках</string>
-  <!-- G-Visual mod -->
-  <string name="gvisual_title">G-Visual Mod</string>
-  <string name="gvisual_summary">Настройте высоту строки состояния и закругленность углов</string>
-  <string name="rounded_ui_title">Закругленность углов</string>
-  <string name="rounded_ui_dialog_title">Выберите режим закругленния углов</string>
-  <string name="rounded_style_default">По умолчанию</string>
-  <string name="rounded_style_rectangle">Прямоугольные</string>
-  <string name="rounded_style_large">Сильно закругленные</string>
-  <string name="rounded_style_medium">Средне закругленные</string>
-  <string name="statusbar_height_title">Высота строки состояния</string>
-  <string name="statusbar_height_dialog_title">Выберите высоту строки состояния</string>
-  <string name="sb_height_default">По умолчанию</string>
-  <string name="sb_height_medium">Нормальная</string>
-  <string name="sb_height_large">Высокая</string>
-  <string name="sb_height_extralarge">Очень высокая</string> 
   <!-- Material dismiss notification button -->
   <string name="notification_material_dismiss_button_title">Плавающая кнопка для очистки уведомлений</string>
   <string name="notification_material_dismiss_button_summary">Заменить текст "Очистить всё" на плавающую кнопку</string>   

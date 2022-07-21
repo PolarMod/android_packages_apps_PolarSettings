@@ -6,6 +6,9 @@
   <!-- Statusbar strings -->
   <string name="network_icon_customization">Індікатор мобілної мережі</string>
   <string name="additional_statusbar_settings">Додаткові налаштування</string>
+  <!-- UI strings -->
+  <string name="additional_settings">Додаткові налаштування</string>
+  <string name="lockscreen_weather_title">Погода на екрані блокування</string>
   <!-- Statusbar net monitor -->
   <string name="traffic_title">Індикація трафику</string>
   <string name="traffic_summary">Налаштуйте індикатор мережевої активності у рядку стану</string>    
@@ -44,26 +47,6 @@
   <string name="lockscreen_weather_style_title">Показати погодні умови на одному рядку с датою</string>
   <string name="lockscreen_weather_style_summary">Коли, вимкнено погодні умови будуть показні на окремому рядку с назвою міста</string>  
   <string name="weather_icon_pack_title">Іконки погоди</string>
-  <!-- QS datausage -->
-  <string name="qs_datausage_disabled">Вимкнено</string>
-  <string name="qs_datausage_daily">Щоденне</string>
-  <string name="qs_datausage_monthly">Місячне</string>
-  <string name="qs_datausage_title">Показувати використання даних у швидких налаштуваннях</string>
-  <!-- G-Visual mod -->
-  <string name="gvisual_title">G-Visual Mod</string>
-  <string name="gvisual_summary">Налаштуйте висоту рядку стану и закругленість кутів</string>
-  <string name="rounded_ui_title">Закругленість кутів</string>
-  <string name="rounded_ui_dialog_title">Оберить режим закруглення кутів</string>
-  <string name="rounded_style_default">За замовчуванням</string>
-  <string name="rounded_style_rectangle">Прямоугольні</string>
-  <string name="rounded_style_large">Сильно закруглені</string>
-  <string name="rounded_style_medium">Середне закруглені</string>
-  <string name="statusbar_height_title">Висота рядку стану</string>
-  <string name="statusbar_height_dialog_title">Оберить висоту рядку стану</string>
-  <string name="sb_height_default">За замовчуванням</string>
-  <string name="sb_height_medium">Нормальная</string>
-  <string name="sb_height_large">Висока</string>
-  <string name="sb_height_extralarge">Дуже висока</string> 
   <!-- Material dismiss notification button -->
   <string name="notification_material_dismiss_button_title">Плаваюча кнопка для очищення повідомлень</string>
   <string name="notification_material_dismiss_button_summary">Замінити текст "Очистити усе" на плаваючу кнопку</string>   

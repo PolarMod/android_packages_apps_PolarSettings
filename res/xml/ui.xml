@@ -4,29 +4,26 @@
      android:title="@string/interface_category_title"
      android:key="interface"
      xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">  
+    <PreferenceCategory 
+	    android:title="@string/lockscreen_weather_title"
+	    android:key="lockscreen_weather" >
     <com.polar.settings.preferences.SystemSettingSwitchPreference
        android:key="lockscreen_weather_enabled"
        android:title="@string/show_lockscreen_weather_title"
        android:summary="@string/show_lockscreen_weather_summary"
        android:defaultValue="false"/>  
-    <com.polar.settings.preferences.SystemSettingSwitchPreference
-       android:key="lockscreen_weather_style"
-       android:title="@string/lockscreen_weather_style_title"
-       android:summary="@string/lockscreen_weather_style_summary"
-       android:defaultValue="true" />
-    <com.polar.settings.preferences.SystemSettingSwitchPreference
-        android:key="three_finger_gesture"
-        android:title="@string/three_finger_gesture"
-        android:summary="@string/three_finger_gesture_summary"
-        android:defaultValue="false" />
     <ListPreference
        android:key="weather_icon_pack"
        android:title="@string/weather_icon_pack_title"
        android:persistent="false" />
-    <com.polar.settings.preferences.SystemSettingListPreference
-       android:key="qs_datausage"
-       android:title="@string/qs_datausage_title"
-       android:entries="@array/qs_datausage_entries"
-       android:entryValues="@array/qs_datausage_values"
-       android:defaultValue="1" /> 
+    </PreferenceCategory>
+    <PreferenceCategory
+	    android:title="@string/additional_settings"
+	    android:key="interface_additional_settings">
+    <com.polar.settings.preferences.SystemSettingSwitchPreference
+        android:key="three_finger_gesture"
+        android:title="@string/three_finger_gesture"
+        android:summary="@string/three_finger_gesture_summary"
+	android:defaultValue="false" />
+    </PreferenceCategory>
 </PreferenceScreen>

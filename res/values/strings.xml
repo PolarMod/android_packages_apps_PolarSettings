@@ -8,6 +8,8 @@
   <!-- Statusbar strings -->
   <string name="network_icon_customization">Mobile network icon</string>
   <string name="additional_statusbar_settings">Additional statusbar settings</string>
+  <string name="additional_settings">Additional</string>
+  <string name="lockscreen_weather_title">Lockscreen weather</string>
   <!-- Network traffic -->
   <string name="network_traffic_settings_title">Network traffic monitor</string>
   <string name="network_traffic_settings_summary">Display and customize current network traffic levels</string>
