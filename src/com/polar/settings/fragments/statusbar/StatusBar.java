@@ -31,6 +31,7 @@ public class StatusBar extends SettingsPreferenceFragment implements Indexable{
    
   private SwitchPreference mShow4G;
   private SwitchPreference mOldSignalIndicator;  
+  private PrefrenceCategory mMobileNetworkCategory;
 
   @Override
   public void onCreate(Bundle savedInstanceState){
@@ -41,9 +42,11 @@ public class StatusBar extends SettingsPreferenceFragment implements Indexable{
      
     mShow4G = (SwitchPreference) findPreference("show_fourg_icon");
     mOldSignalIndicator = (SwitchPreference) findPreference("use_old_mobiletype");
+    mMobileNetworkCategory = (PreferenceCategory) findPreference("network_icon_customization");
     if(!Utils.isPhone(getActivity())){
       mPreferences.removePreference(mShow4G);
       mPreferences.removePreference(mOldSignalIndicator);
+      mPreferences.removePreference(mMobileNetworkCategory);
     }
   }
 

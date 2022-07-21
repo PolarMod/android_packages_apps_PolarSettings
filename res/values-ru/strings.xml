@@ -3,6 +3,9 @@
   <string name="polar_settings">Дополнительные настройки</string>
   <string name="statusbar_category_title">Строка состояние и быстрые настройки</string>
   <string name="statusbar_category_summary">Настройте строку состояния, область быстрых настроек и уведомлений</string>      
+  <!-- Statusbar strings -->
+  <string name="network_icon_customization">Значок мобильной сети</string>
+  <string name="additional_statusbar_settings">Дополнительные настройки</string>
   <!-- Statusbar net monitor -->
   <string name="traffic_title">Индикация траффика</string>
   <string name="traffic_summary">Настройте индикатор сетевой активности в строке состояния</string>    

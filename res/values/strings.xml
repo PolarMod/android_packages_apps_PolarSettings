@@ -5,6 +5,9 @@
   <string name="polar_settings">Additional settings</string>
   <string name="statusbar_category_title">Status bar and quick settings</string>
   <string name="statusbar_category_summary">Customize status bar, quick settings and notification area</string>      
+  <!-- Statusbar strings -->
+  <string name="network_icon_customization">Mobile network icon</string>
+  <string name="additional_statusbar_settings">Additional statusbar settings</string>
   <!-- Network traffic -->
   <string name="network_traffic_settings_title">Network traffic monitor</string>
   <string name="network_traffic_settings_summary">Display and customize current network traffic levels</string>
@@ -55,16 +58,6 @@
   <!-- Material dismiss all button -->
   <string name="notification_material_dismiss_button_title">Floating button for clearing notifications</string>
   <string name="notification_material_dismiss_button_summary">Replace clear all notification text with floating button</string>  
-  <!-- QS rows/columns -->
-  <string name="sysui_qqs_count_title">Columns (Quickbar)</string>
-  <string name="qs_layout_category">Layout</string>
-  <string name="qs_column_rows_settings_title">QS panel settings</string>
-  <string name="qs_columns_rows_category_title">QS columns and rows</string>
-  <string name="qs_rows_columns_title">QS rows and columns</string>
-  <string name="qs_rows_portrait_title">Rows (Portrait)</string>
-  <string name="qs_rows_landscape_title">Rows (Landscape)</string>
-  <string name="qs_columns_portrait_title">Columns (Portrait)</string>
-  <string name="qs_columns_landscape_title">Columns (Landscape)</string>
   <!-- Face unlock -->
   <string name="security_settings_face_settings_footer_custom">[UNKNOWN STRING]</string>
   <string name="security_settings_face_unlock_redo_face_scan_summary">Remove existing face scan and create a new scan</string>
