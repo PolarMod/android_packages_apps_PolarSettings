@@ -9,29 +9,33 @@
   <!-- UI strings -->
   <string name="additional_settings">Додаткові налаштування</string>
   <string name="lockscreen_weather_title">Погода на екрані блокування</string>
-  <!-- Statusbar net monitor -->
-  <string name="traffic_title">Індикація трафику</string>
-  <string name="traffic_summary">Налаштуйте індикатор мережевої активності у рядку стану</string>    
-  <string name="network_traffic_state_title">Індикаія трафику</string>
-  <string name="network_traffic_state_summary">Показати індикацію трафику у рядку стану</string>
-  <string name="network_traffic">Мережевий трафік</string>
-  <string name="network_traffic_location">Розміщення індикатору мережевого трафику</string>
-  <string name="traffic_disabled">Вимкнено</string>
-  <string name="traffic_statusbar">Рядок стану</string>
-  <string name="traffic_expanded_statusbar">Розширений заголовок</string>
-  <string name="network_traffic_autohide_threshold_title">Поріг приховування індікатора трафіка (KB/s)</string>
-  <string name="network_traffic_arrow">Показувати стрілки</string>
-  <string name="network_traffic_arrow_summary">Візуалізувати мережевої трафік стрілками</string>
-  <string name="network_traffic_type">Оберить тіп мережевої активності</string>
-  <string name="show_network_traffic_combined">Суміщений</string>
-  <string name="show_network_traffic_dynamic">Динамичній</string>
-  <string name="show_network_traffic_up">Вихідний</string>
-  <string name="show_network_traffic_down">Вхідний</string>
-  <string name="show_network_traffic_all">Обидва</string>
-  <string name="network_traffic_layout">Стиль індикатора</string>
-  <string name="network_traffic_layout_h">Горизонтальний</string>
-  <string name="network_traffic_layout_v">Вертикальний</string>
-  <string name="nettraf_font_size">Розмір шрифту мережевого індикатора</string>  
+  <!-- Network traffic -->
+  <string name="network_traffic_settings_title">Індикатор мережевого трафіку</string>
+  <string name="network_traffic_settings_summary">Показувати поточну швидкість мережі в рядку стану</string>
+  <string name="network_traffic_location_title">Місцезнаходження</string>
+  <string name="network_traffic_location_disable">Вимкнено</string>
+  <string name="network_traffic_location_statusbar">Рядок стану</string>
+  <string name="network_traffic_location_quick_statusbar">Рядок стану швидких налаштувань</string>
+  <string name="network_traffic_mode_title">Режим відображення</string>
+  <string name="network_traffic_mode_up">Тільки вихідний трафік</string>
+  <string name="network_traffic_mode_down">Тільки вхідний трафік</string>
+  <string name="network_traffic_mode_all">Вихідний і вхідний трафік</string>
+  <string name="network_traffic_autohide">Приховувати автоматично</string>
+  <string name="network_traffic_autohide_summary">Приховувати індикатор трафіку, коли відсутня активність</string>
+  <string name="network_traffic_autohide_kilobits">Кб/с</string>
+  <string name="network_traffic_autohide_kilobytes">КБ/с</string>
+  <string name="network_traffic_autohide_threshold">Поріг неактивності</string>
+  <string name="network_traffic_refresh_interval_title">Інтервал оновлення</string>
+  <string name="network_traffic_refresh_interval_summary">Проміжок часу оновлення швидкості</string>
+  <string name="network_traffic_units_title">Одиниці виміру трафіку</string>
+  <string name="network_traffic_units_bits">Біт за секунду (б/с)</string>
+  <string name="network_traffic_units_kilobits">Кілобіт за секунду (кб/с)</string>
+  <string name="network_traffic_units_megabits">Мегабіт за секунду (Мб/с)</string>
+  <string name="network_traffic_units_bytes">Байт за секунду (Б/с)</string>
+  <string name="network_traffic_units_kilobytes">Кілобайт за секунду (кБ/с)</string>
+  <string name="network_traffic_units_megabytes">Мегабайт за секунду (МБ/с)</string>
+  <string name="network_traffic_hidearrow">Приховати стрілки</string>
+  <string name="network_traffic_hidearrow_summary">Приховати стрілки в індикаторі трафіку</string>
   <!-- 4G icon -->
   <string name="show_4g_icon_title">Використати іконку 4G</string>
   <string name="show_4g_icon_summary">Використати іконку 4G замість LTE</string>  
