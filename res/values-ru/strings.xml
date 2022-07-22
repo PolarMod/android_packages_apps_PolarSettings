@@ -51,6 +51,9 @@
   <string name="lockscreen_weather_style_title">Показать погодные условия на одной строке с датой</string>
   <string name="lockscreen_weather_style_summary">Когда, отключено погодные условия будут показны на отдельной строке с названием текущего города</string>  
   <string name="weather_icon_pack_title">Иконки погоды</string>
+  <!-- Three-Finger screenshot -->
+  <string name="three_finger_gesture">Проведите для скриншота</string>
+  <string name="three_finger_gesture_summary">Проведите тремя палбцами для создания скриншота</string>
   <!-- Material dismiss notification button -->
   <string name="notification_material_dismiss_button_title">Плавающая кнопка для очистки уведомлений</string>
   <string name="notification_material_dismiss_button_summary">Заменить текст "Очистить всё" на плавающую кнопку</string>   
