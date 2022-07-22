@@ -31,7 +31,7 @@ public class StatusBar extends SettingsPreferenceFragment implements Indexable{
    
   private SwitchPreference mShow4G;
   private SwitchPreference mOldSignalIndicator;  
-  private PrefrenceCategory mMobileNetworkCategory;
+  private PreferenceCategory mMobileNetworkCategory;
 
   @Override
   public void onCreate(Bundle savedInstanceState){
