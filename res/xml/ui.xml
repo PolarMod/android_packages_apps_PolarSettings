@@ -29,6 +29,6 @@
 	android:key="monet_engine"    
 	android:title="@string/monet_title"
 	android:summary="@string/monet_summary" 
-	android:fragment="com.polar.settings.framents.ui.MonetSettings" />
+	android:fragment="com.polar.settings.fragments.ui.MonetSettings" />
     </PreferenceCategory> 
 </PreferenceScreen>
