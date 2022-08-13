@@ -24,6 +24,11 @@
         android:key="three_finger_gesture"
         android:title="@string/three_finger_gesture"
         android:summary="@string/three_finger_gesture_summary"
-	android:defaultValue="false" />
-    </PreferenceCategory>
+	android:defaultValue="false" /> 
+    <Preference
+	android:key="monet_engine"    
+	android:title="@string/monet_title"
+	android:summary="@string/monet_summary" 
+	android:fragment="com.polar.settings.framents.ui.MonetSettings" />
+    </PreferenceCategory> 
 </PreferenceScreen>

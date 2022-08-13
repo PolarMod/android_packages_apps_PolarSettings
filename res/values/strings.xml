@@ -75,4 +75,8 @@
   <!-- Old mobiletype icon style -->
   <string name="old_mobiletype_title">Old style signal icon</string>
   <string name="old_mobiletype_summary">Merge signal and signal type icons</string>
+  <!-- Monet engine -->
+  <string name="monet_title">Monet settings</string>
+  <string name="monet_summary">Configure and customize your theme with Monet engine</string>
 </resources>
+
