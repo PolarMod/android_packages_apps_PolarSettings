@@ -85,5 +85,14 @@
   <string name="monet_engine_accurate_shades_title">Use accurate shades</string>
   <string name="monet_engine_chroma_factor_title">Chroma factor</string>
   <string name="monet_engine_linear_lightness_title">Use linear lightness</string>
+  <!-- Color Picker -->
+  <string name="dialog_color_picker">Color Picker</string>
+  <string name="press_color_to_apply">Press on color below to apply</string>
+  <string name="arrow_right" translatable="false">→</string>
+  <string name="arrow_down" translatable="false">↓</string>
+  <string name="hex">Hex:</string>
+  <string name="hex_hint">#ff000000</string>
+  <string name="set">Set</string>
+  <string name="color_default">Default</string>
 </resources>
 
