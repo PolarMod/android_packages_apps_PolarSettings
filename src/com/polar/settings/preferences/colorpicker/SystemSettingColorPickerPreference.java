@@ -20,7 +20,7 @@ import android.text.TextUtils;
 import android.util.AttributeSet;
 import android.provider.Settings;
 
-import com.crdroid.settings.preferences.SystemSettingsStore;
+import com.polar.settings.preferences.SystemSettingsStore;
 
 public class SystemSettingColorPickerPreference extends ColorPickerPreference {
 
