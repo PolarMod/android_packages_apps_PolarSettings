@@ -18,6 +18,20 @@
        android:persistent="false" />
     </PreferenceCategory>
     <PreferenceCategory
+	    android:title="@string/category_icon"
+	    android:key="interface_icon_settings">
+    <Preference
+        android:key="android.theme.customization.icon_pack"
+        android:title="@string/theme_customization_icon_pack_title"
+        android:summary="@string/theme_customization_icon_pack_summary"
+        android:fragment="com.polar.settings.fragments.ui.StatusbarIcons"/>
+    <Preference
+        android:key="android.theme.customization.adaptive_icon_shape"
+        android:title="@string/theme_customization_icon_shape_title"
+        android:summary="@string/theme_customization_icon_shape_summary"
+        android:fragment="com.polar.settings.fragments.ui.IconShapes"/>
+    </PreferenceCategory>
+    <PreferenceCategory
 	    android:title="@string/additional_settings"
 	    android:key="interface_additional_settings">
     <com.polar.settings.preferences.SystemSettingSwitchPreference
@@ -25,10 +39,10 @@
         android:title="@string/three_finger_gesture"
         android:summary="@string/three_finger_gesture_summary"
 	android:defaultValue="false" /> 
-    <Preference
+    <!--<Preference
 	android:key="monet_engine"    
 	android:title="@string/monet_title"
 	android:summary="@string/monet_summary" 
-	android:fragment="com.polar.settings.fragments.ui.MonetSettings" />
+    android:fragment="com.polar.settings.fragments.ui.MonetSettings" /> -->
     </PreferenceCategory> 
 </PreferenceScreen>
