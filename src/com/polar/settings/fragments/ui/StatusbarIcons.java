@@ -238,7 +238,7 @@ public class StatusbarIcons extends SettingsPreferenceFragment {
 
     public void enableOverlay(String category, String target, String pattern) {
         if (pattern.isEmpty()) {
-            mThemeUtils.setOverlayEnabled(category, "android");
+            mThemeUtils.setOverlayEnabled(category, "android", "android");
             return;
         }
         for (String pkg: mThemeUtils.getOverlayPackagesForCategory(category, target)) {
