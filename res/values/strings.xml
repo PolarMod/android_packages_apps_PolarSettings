@@ -95,7 +95,7 @@
   <string name="set">Set</string>
   <string name="color_default">Default</string>
   <!-- Icon shape -->
-  <string name="category_icons">Icon customization</string>
+  <string name="category_icon">Icon customization</string>
   <string name="theme_customization_icon_pack_title">Icon pack</string>
   <string name="theme_customization_icon_pack_summary">Set custom icon pack style</string>
   <string name="theme_customization_icon_shape_title">Icon shape</string>
