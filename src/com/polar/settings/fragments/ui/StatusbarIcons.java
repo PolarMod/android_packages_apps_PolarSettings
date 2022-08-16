@@ -90,7 +90,6 @@ public class StatusbarIcons extends SettingsPreferenceFragment {
 
         mThemeUtils = new ThemeUtils(getActivity());
         mPkgs = mThemeUtils.getOverlayPackagesForCategory(mCategory, "android");
-        Collections.sort(mPkgs);
     }
 
     @Override
@@ -209,10 +208,6 @@ public class StatusbarIcons extends SettingsPreferenceFragment {
             Resources res = pkg.equals("android") ? Resources.getSystem()
                     : pm.getResourcesForApplication(pkg);
             int resId = res.getIdentifier(drawableName, "drawable", pkg);
-            if (resId == 0) {
-                return Resources.getSystem().getDrawable(
-                        Resources.getSystem().getIdentifier(drawableName, "drawable", "android"));
-            }
             return res.getDrawable(resId);
         }
         catch (PackageManager.NameNotFoundException e) {
@@ -233,7 +228,7 @@ public class StatusbarIcons extends SettingsPreferenceFragment {
     }
 
     public void enableOverlays(int position) {
-        mThemeUtils.setOverlayEnabled(mCategory, mPkgs.get(position));
+        mThemeUtils.setOverlayEnabled(mCategory, mPkgs.get(position), "android");
         String pattern = "android".equals(mPkgs.get(position)) ? ""
                 : mPkgs.get(position).split("\\.")[4];
         for (Map.Entry<String, String> entry : overlayMap.entrySet()) {
@@ -248,7 +243,7 @@ public class StatusbarIcons extends SettingsPreferenceFragment {
         }
         for (String pkg: mThemeUtils.getOverlayPackagesForCategory(category, target)) {
             if (pkg.contains(pattern)) {
-                mThemeUtils.setOverlayEnabled(category, pkg);
+                mThemeUtils.setOverlayEnabled(category, pkg, target);
             }
         }
     }
