@@ -57,4 +57,10 @@
   <!-- Material dismiss notification button -->
   <string name="notification_material_dismiss_button_title">Плавающая кнопка для очистки уведомлений</string>
   <string name="notification_material_dismiss_button_summary">Заменить текст "Очистить всё" на плавающую кнопку</string>   
+  <!-- Icon customization -->
+  <string name="category_icon">Настройки значков</string>
+  <string name="theme_customization_icon_pack_title">Тема значков</string>
+  <string name="theme_customization_icon_pack_summary">Изменить системную тему значков</string>
+  <string name="theme_customization_icon_shape_title">Форма значков</string>
+  <string name="theme_customization_icon_shape_summary">Изменить форму системных значков</string>
 </resources>
