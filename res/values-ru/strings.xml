@@ -63,4 +63,7 @@
   <string name="theme_customization_icon_pack_summary">Изменить системную тему значков</string>
   <string name="theme_customization_icon_shape_title">Форма значков</string>
   <string name="theme_customization_icon_shape_summary">Изменить форму системных значков</string>
+ <!-- Old mobiletype icon style -->
+  <string name="old_mobiletype_title">Значок мобильной сети в старом стиле</string>
+  <string name="old_mobiletype_summary">Объединить значок силы сигна и тип сети</string>
 </resources>
