@@ -65,5 +65,5 @@
   <string name="theme_customization_icon_shape_summary">Змінити сістемну форму значків</string>
   <!-- Old mobiletype icon style -->
   <string name="old_mobiletype_title">Значок мобыльної мережі у старом стілі</string>
-  <string name="old_mobiletype_summary">Об'єднати значок потужності сігналу та тип мережі</string>
+  <string name="old_mobiletype_summary">Об\'єднати значок потужності сігналу та тип мережі</string>
 </resources>
