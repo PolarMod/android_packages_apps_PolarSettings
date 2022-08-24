@@ -32,6 +32,16 @@
         android:fragment="com.polar.settings.fragments.ui.IconShapes"/>
     </PreferenceCategory>
     <PreferenceCategory
+	    android:title="@string/lockscreen_category"
+	    android:key="lockscreen_category">
+    <Preference
+            android:key="udfps_settings"
+            android:icon="@drawable/ic_fp_selector"
+            android:title="@string/udfps_settings_title"
+            android:summary="@string/udfps_settings_summary"
+            android:fragment="com.polar.settings.fragments.ui.lockscreen.UdfpsSettings" />
+    </PreferenceCategory>
+    <PreferenceCategory
 	    android:title="@string/additional_settings"
 	    android:key="interface_additional_settings">
     <com.polar.settings.preferences.SystemSettingSwitchPreference

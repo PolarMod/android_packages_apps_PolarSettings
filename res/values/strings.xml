@@ -5,6 +5,9 @@
   <string name="polar_settings">Additional settings</string>
   <string name="statusbar_category_title">Status bar and quick settings</string>
   <string name="statusbar_category_summary">Customize status bar, quick settings and notification area</string>      
+  <string name="enable">Enable</string>
+  <string name="disable">Disable</string>
+  <string name="lockscreen_category">Lockscreen category</string>
   <!-- Statusbar strings -->
   <string name="network_icon_customization">Mobile network icon</string>
   <string name="additional_statusbar_settings">Additional statusbar settings</string>
@@ -100,5 +103,12 @@
   <string name="theme_customization_icon_pack_summary">Set custom icon pack style</string>
   <string name="theme_customization_icon_shape_title">Icon shape</string>
   <string name="theme_customization_icon_shape_summary">Set system icon shape style</string>
+  <!-- UDFPS settings -->
+  <string name="udfps_settings_title">UDFPS customization</string>
+  <string name="udfps_settings_summary">Customize under-display fingerprint scanner</string>
+  <string name="udfps_icon_picker_title">UDFPS icon picker</string>
+  <string name="udfps_icon_picker_summary">Choose your favorite fingerprint icon</string>
+  <string name="udfps_recog_animation_effect_title">UDFPS animation effect</string>
+  <string name="udfps_recog_animation_effect_summary">Choose animation effect</string>
 </resources>
 
