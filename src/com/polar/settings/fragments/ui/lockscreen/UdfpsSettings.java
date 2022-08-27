@@ -27,6 +27,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.os.UserHandle;
 import android.provider.Settings;
+import android.util.Log;
 
 import androidx.preference.ListPreference;
 import androidx.preference.Preference.OnPreferenceChangeListener;
@@ -47,6 +48,7 @@ public class UdfpsSettings extends SettingsPreferenceFragment {
 
     private static final String UDFPS_ICON_PICKER = "udfps_icon_picker";
     private static final String UDFPS_ANIM_PREVIEW = "udfps_recognizing_animation_preview";
+    private static final String TAG = "UdfpsSettings";
 
     private Preference mUdfpsIconPicker;
     private Preference mUdfpsAnimPreview;
@@ -64,8 +66,9 @@ public class UdfpsSettings extends SettingsPreferenceFragment {
         mUdfpsIconPicker = findPreference(UDFPS_ICON_PICKER);
         mUdfpsAnimPreview = findPreference(UDFPS_ANIM_PREVIEW);
         if (!udfpsResPkgInstalled) {
-            prefSet.removePreference(mUdfpsIconPicker);
-            prefSet.removePreference(mUdfpsAnimPreview);
+            Log.d(TAG, "Required packages is not installed, but not removing preference due to hotfix"); 
+	    //prefSet.removePreference(mUdfpsIconPicker);
+            //prefSet.removePreference(mUdfpsAnimPreview);
         }
     }
 
