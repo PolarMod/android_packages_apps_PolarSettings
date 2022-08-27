@@ -157,7 +157,7 @@ public class UdfpsAnimation extends SettingsPreferenceFragment implements
 
     @Override
     public int getMetricsCategory() {
-        return MetricsEvent.CRDROID_SETTINGS;
+        return MetricsEvent.POLAR_SETTINGS;
     }
 
     @Override
