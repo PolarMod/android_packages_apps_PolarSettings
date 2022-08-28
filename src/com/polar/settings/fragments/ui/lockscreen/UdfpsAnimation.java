@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.polar.settings.fragments.lockscreen;
+package com.polar.settings.fragments.ui.lockscreen;
 
 import android.content.ContentResolver;
 import android.content.Context;
