@@ -63,7 +63,14 @@
   <string name="theme_customization_icon_pack_summary">Изменить системную тему значков</string>
   <string name="theme_customization_icon_shape_title">Форма значков</string>
   <string name="theme_customization_icon_shape_summary">Изменить форму системных значков</string>
- <!-- Old mobiletype icon style -->
+  <!-- Old mobiletype icon style -->
   <string name="old_mobiletype_title">Значок мобильной сети в старом стиле</string>
   <string name="old_mobiletype_summary">Объединить значок силы сигна и тип сети</string>
+  <!-- UDFPS settings -->
+  <string name="udfps_settings_title">Сканер отпечатка пальца</string>
+  <string name="udfps_settings_summary">Настройте сканер отпечатка пальца</string>
+  <string name="udfps_icon_picker_title">Иконка сканера отпечатка пальца</string>
+  <string name="udfps_icon_picker_summary">Измените вид иконки сканера отпечатка пальца</string>
+  <string name="udfps_recog_animation_effect_title">Анимация распознования отпечатка пальца</string>
+  <string name="udfps_recog_animation_effect_summary">Измените анимацию распознования отпечатка пальца</string>
 </resources>

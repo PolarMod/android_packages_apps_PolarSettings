@@ -66,4 +66,11 @@
   <!-- Old mobiletype icon style -->
   <string name="old_mobiletype_title">Значок мобыльної мережі у старом стілі</string>
   <string name="old_mobiletype_summary">Об\'єднати значок потужності сігналу та тип мережі</string>
+  <!-- UDFPS settings -->
+  <string name="udfps_settings_title">Сканер відбитків пальця</string>
+  <string name="udfps_settings_summary">Налаштуйте сканер відбитка пальця</string>
+  <string name="udfps_icon_picker_title">Іконка сканер відбитка пальця</string>
+  <string name="udfps_icon_picker_summary">Оберіть іконку сканеру вібитків пальця</string>
+  <string name="udfps_recog_animation_effect_title">Аніміція сканування відбитка пальця</string>
+  <string name="udfps_recog_animation_effect_summary">Оберіть анімцію яка буде показана під час сканування відбитка пальця</string>
 </resources>
