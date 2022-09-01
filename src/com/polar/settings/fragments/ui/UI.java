@@ -24,6 +24,7 @@ import android.os.SystemProperties;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
+import com.android.internal.utils.polar.Utils;
 
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.Indexable;
@@ -43,6 +44,7 @@ public class UI extends SettingsPreferenceFragment
   private static final String WEATHER_SERVICE_PACKAGE = "org.omnirom.omnijaws";
   private static final String CHRONUS_ICON_PACK_INTENT = "com.dvtonder.chronus.ICON_PACK";
   private PreferenceCategory mWeatherCategory;
+  private PreferenceCategory mLockscreenCategory;
   private ListPreference mWeatherIconPack;
 
   @Override
@@ -51,6 +53,8 @@ public class UI extends SettingsPreferenceFragment
         addPreferencesFromResource(R.xml.ui);
         final PreferenceScreen prefScreen = getPreferenceScreen();
 
+	mLockscreenCategory = (PreferenceCategory) findPreference("lockscreen_category"); 
+
         String settingHeaderPackage = Settings.System.getString(getContentResolver(),
                     Settings.System.OMNIJAWS_WEATHER_ICON_PACK);
         if (settingHeaderPackage == null) {
@@ -58,7 +62,8 @@ public class UI extends SettingsPreferenceFragment
         }
         mWeatherIconPack = (ListPreference) findPreference(WEATHER_ICON_PACK);
      
-
+        final boolean udfpsResPkgInstalled = Utils.isPackageInstalled(getContext(),
+                "com.polar.udfps.animations");
         List<String> entries = new ArrayList<String>();
         List<String> values = new ArrayList<String>();
         getAvailableWeatherIconPacks(entries, values);
@@ -76,6 +81,9 @@ public class UI extends SettingsPreferenceFragment
         mWeatherIconPack.setValueIndex(valueIndex >= 0 ? valueIndex : 0);
         mWeatherIconPack.setSummary(mWeatherIconPack.getEntry());
         mWeatherIconPack.setOnPreferenceChangeListener(this);
+	if (!udfpsResPkgInstalled){
+		prefScreen.removePreference(mLockscreenCategory);
+	}
    }
 
   private void getAvailableWeatherIconPacks(List<String> entries, List<String> values) {
