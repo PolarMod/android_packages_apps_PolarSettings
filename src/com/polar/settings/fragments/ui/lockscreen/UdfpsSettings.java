@@ -67,8 +67,8 @@ public class UdfpsSettings extends SettingsPreferenceFragment {
         mUdfpsAnimPreview = findPreference(UDFPS_ANIM_PREVIEW);
         if (!udfpsResPkgInstalled) {
             Log.d(TAG, "Required packages is not installed, but not removing preference due to hotfix"); 
-	    //prefSet.removePreference(mUdfpsIconPicker);
-            //prefSet.removePreference(mUdfpsAnimPreview);
+	    prefSet.removePreference(mUdfpsIconPicker);
+            prefSet.removePreference(mUdfpsAnimPreview);
         }
     }
 

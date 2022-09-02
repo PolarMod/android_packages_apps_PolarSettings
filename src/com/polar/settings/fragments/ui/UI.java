@@ -24,7 +24,7 @@ import android.os.SystemProperties;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
-import com.android.internal.utils.polar.Utils;
+import com.android.internal.util.polar.Utils;
 
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.Indexable;
