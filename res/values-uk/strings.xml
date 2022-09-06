@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="unit_seconds"> секунд(и)</string>
   <string name="polar_settings">Додаткові налаштування</string>
   <string name="statusbar_category_title">Рядок стану та швидкі налаштування</string>
-  <string name="statusbar_category_summary">Налаштуйте рядок стану, область швидких налаштування та повідомлень</string>      
+  <string name="statusbar_category_summary">Налаштуйте рядок стану, область швидких налаштування та повідомлень</string> 
+  <string name="lockscreen_category">Налаштування екрану блокування</string>
   <!-- Statusbar strings -->
   <string name="network_icon_customization">Індікатор мобілної мережі</string>
   <string name="additional_statusbar_settings">Додаткові налаштування</string>

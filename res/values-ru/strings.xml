@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="unit_seconds"> секунд(-ы)</string>
   <string name="polar_settings">Дополнительные настройки</string>
   <string name="statusbar_category_title">Строка состояние и быстрые настройки</string>
   <string name="statusbar_category_summary">Настройте строку состояния, область быстрых настроек и уведомлений</string>      
-  <!-- UI strigs -->
+  <string name="lockscreen_category">Настройки экран блокировки</string>
+  <!-- UI strings -->
   <string name="additional_settings">Дополнительные настройки</string>
   <string name="lockscreen_weather_title">Погода на экране блокировки</string>
   <!-- Statusbar strings -->

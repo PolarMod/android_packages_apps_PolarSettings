@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Auxilary strings -->
-  <string name="unit_seconds">seconds</string>
+  <string name="unit_seconds"> seconds</string>
   <string name="polar_settings">Additional settings</string>
   <string name="statusbar_category_title">Status bar and quick settings</string>
   <string name="statusbar_category_summary">Customize status bar, quick settings and notification area</string>      
   <string name="enable">Enable</string>
   <string name="disable">Disable</string>
-  <string name="lockscreen_category">Lockscreen setting</string>
+  <string name="lockscreen_category">Lockscreen settings</string>
   <!-- Statusbar strings -->
   <string name="network_icon_customization">Mobile network icon</string>
   <string name="additional_statusbar_settings">Additional statusbar settings</string>
