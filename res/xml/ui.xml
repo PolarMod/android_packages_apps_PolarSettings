@@ -20,16 +20,6 @@
     <PreferenceCategory
 	    android:title="@string/category_icon"
 	    android:key="interface_icon_settings">
-    <Preference
-        android:key="android.theme.customization.icon_pack"
-        android:title="@string/theme_customization_icon_pack_title"
-        android:summary="@string/theme_customization_icon_pack_summary"
-        android:fragment="com.polar.settings.fragments.ui.StatusbarIcons"/>
-    <Preference
-        android:key="android.theme.customization.adaptive_icon_shape"
-        android:title="@string/theme_customization_icon_shape_title"
-        android:summary="@string/theme_customization_icon_shape_summary"
-        android:fragment="com.polar.settings.fragments.ui.IconShapes"/>
     </PreferenceCategory>
     <PreferenceCategory
 	    android:title="@string/lockscreen_category"
