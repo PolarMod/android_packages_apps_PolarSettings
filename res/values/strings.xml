@@ -1,114 +1,125 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Auxilary strings -->
-  <string name="unit_seconds"> seconds</string>
-  <string name="polar_settings">Additional settings</string>
-  <string name="statusbar_category_title">Status bar and quick settings</string>
-  <string name="statusbar_category_summary">Customize status bar, quick settings and notification area</string>      
-  <string name="enable">Enable</string>
-  <string name="disable">Disable</string>
-  <string name="lockscreen_category">Lockscreen settings</string>
-  <!-- Statusbar strings -->
-  <string name="network_icon_customization">Mobile network icon</string>
-  <string name="additional_statusbar_settings">Additional statusbar settings</string>
-  <string name="additional_settings">Additional</string>
-  <string name="lockscreen_weather_title">Lockscreen weather</string>
-  <!-- Network traffic -->
-  <string name="network_traffic_settings_title">Network traffic monitor</string>
-  <string name="network_traffic_settings_summary">Display and customize current network traffic levels</string>
-  <string name="network_traffic_location_title">Location</string>
-  <string name="network_traffic_location_disable">Disabled</string>
-  <string name="network_traffic_location_statusbar">Statusbar</string>
-  <string name="network_traffic_location_quick_statusbar">Quick Statusbar</string>
-  <string name="network_traffic_mode_title">Display mode</string>
-  <string name="network_traffic_mode_up">Upload only</string>
-  <string name="network_traffic_mode_down">Download only</string>
-  <string name="network_traffic_mode_all">Upload and download</string>
-  <string name="network_traffic_autohide">Auto hide</string>
-  <string name="network_traffic_autohide_summary">Hide the traffic monitor when inactive</string>
-  <string name="network_traffic_autohide_kilobits">Kb/s</string>
-  <string name="network_traffic_autohide_kilobytes">KB/s</string>
-  <string name="network_traffic_autohide_threshold">Inactivity threshold</string>
-  <string name="network_traffic_refresh_interval_title">Refresh interval</string>
-  <string name="network_traffic_refresh_interval_summary">Duration after which speed is remeasured</string>
-  <string name="network_traffic_units_title">Traffic measurement units</string>
-  <string name="network_traffic_units_bits">Bits per second (b/s)</string>
-  <string name="network_traffic_units_kilobits">Kilobits per second (kb/s)</string>
-  <string name="network_traffic_units_megabits">Megabits per second (Mb/s)</string>
-  <string name="network_traffic_units_bytes">Bytes per second (B/s)</string>
-  <string name="network_traffic_units_kilobytes">Kilobytes per second (kB/s)</string>
-  <string name="network_traffic_units_megabytes">Megabytes per second (MB/s)</string>
-  <string name="network_traffic_hidearrow">Hide arrows</string>
-  <string name="network_traffic_hidearrow_summary">Hide the network traffic indicator arrows</string>
-  <!-- 4G icon -->
-  <string name="show_4g_icon_title">Use 4G icon</string>
-  <string name="show_4g_icon_summary">Show 4G icon instead of LTE</string>  
-  <!-- Weather -->  
-  <string name="weather_config_title">Weather</string>
-  <string name="weather_config_summary">Configure weather provider</string> 
-  <!-- Interface -->
-  <string name="interface_category_title">Interface</string>
-  <string name="interface_category_summary">Customize lockscreen, themes and animations</string>  
-  <!-- Interface: lockscreen weather -->  
-  <string name="show_lockscreen_weather_title">Show weather on a lock screen</string>
-  <string name="show_lockscreen_weather_summary">Show current weather conditions when screen is locked</string>
-  <string name="lockscreen_weather_style_title">Show weather conditions on one line with date</string>
-  <string name="lockscreen_weather_style_summary">When disabled weather is shown on separate line under date</string>  
-  <string name="weather_icon_pack_title">Weather icons</string>
-  <!-- QS datausage -->
-  <string name="qs_datausage_disabled">Disabled</string>
-  <string name="qs_datausage_daily">Daily</string>
-  <string name="qs_datausage_monthly">Monthly</string>
-  <string name="qs_datausage_title">Show datausage in quick settings</string>
-  <!-- Material dismiss all button -->
-  <string name="notification_material_dismiss_button_title">Floating button for clearing notifications</string>
-  <string name="notification_material_dismiss_button_summary">Replace clear all notification text with floating button</string>  
-  <!-- Face unlock -->
-  <string name="security_settings_face_settings_footer_custom">[UNKNOWN STRING]</string>
-  <string name="security_settings_face_unlock_redo_face_scan_summary">Remove existing face scan and create a new scan</string>
-  <string name="security_settings_face_unlock_redo_face_scan_title">Redo face scan</string>
-  <string name="face_redo_confirm_btn">Redo</string>
-  <string name="face_redo_warning_msg">Do you want to remove the existing face scan and create a new one?</string>
-  <string name="face_unlock_method_title">Allow face unlock on lock screen</string>
-  <string name="face_unlock_method_default">When the screen is turned on</string>
-  <string name="face_unlock_method_swipe">When swiping on lock screen</string> 
-  <!-- Three-Finger screenshot -->
-  <string name="three_finger_gesture">Swipe to screenshot</string>
-  <string name="three_finger_gesture_summary">Swipe three fingers to take screenshot</string>
-  <!-- Old mobiletype icon style -->
-  <string name="old_mobiletype_title">Old style signal icon</string>
-  <string name="old_mobiletype_summary">Merge signal and signal type icons</string>
-  <!-- Monet engine -->
-  <string name="monet_title">Monet settings</string>
-  <string name="monet_summary">Configure and customize your theme with Monet engine</string>
-  <string name="monet_engine_custom_color_title">Use custom color</string>
-  <string name="monet_engine_custom_color_summary">Use custom color for monet engine instead of wallpaper colors</string>
-  <string name="monet_engine_color_override_title">Custom color</string>
-  <string name="monet_engine_white_luminance_user_title">White luminance</string>
-  <string name="monet_engine_accurate_shades_title">Use accurate shades</string>
-  <string name="monet_engine_chroma_factor_title">Chroma factor</string>
-  <string name="monet_engine_linear_lightness_title">Use linear lightness</string>
-  <!-- Color Picker -->
-  <string name="dialog_color_picker">Color Picker</string>
-  <string name="press_color_to_apply">Press on color below to apply</string>
-  <string name="arrow_right" translatable="false">→</string>
-  <string name="arrow_down" translatable="false">↓</string>
-  <string name="hex">Hex:</string>
-  <string name="hex_hint">#ff000000</string>
-  <string name="set">Set</string>
-  <string name="color_default">Default</string>
-  <!-- Icon shape -->
-  <string name="category_icon">Icon customization</string>
-  <string name="theme_customization_icon_pack_title">Icon pack</string>
-  <string name="theme_customization_icon_pack_summary">Set custom icon pack style</string>
-  <string name="theme_customization_icon_shape_title">Icon shape</string>
-  <string name="theme_customization_icon_shape_summary">Set system icon shape style</string>
-  <!-- UDFPS settings -->
-  <string name="udfps_settings_title">Fingerprint scanner</string>
-  <string name="udfps_settings_summary">Customize under-display fingerprint scanner</string>
-  <string name="udfps_icon_picker_title">Fingerprint scanner icon picker</string>
-  <string name="udfps_icon_picker_summary">Choose fingerprint scanner icon</string>
-  <string name="udfps_recog_animation_effect_title">Fingerprint recognition animation</string>
-  <string name="udfps_recog_animation_effect_summary">Choose animation of fingerprint scanning</string>
+    <!-- Auxilary strings -->
+    <string name="unit_seconds">seconds</string>
+    <string name="polar_settings">Additional settings</string>
+    <string name="statusbar_category_title">Status bar and quick settings</string>
+    <string name="statusbar_category_summary">Customize status bar, quick settings and notification area</string>
+    <string name="enable">Enable</string>
+    <string name="disable">Disable</string>
+    <string name="lockscreen_category">Lockscreen settings</string>
+    <!-- Statusbar strings -->
+    <string name="network_icon_customization">Mobile network icon</string>
+    <string name="additional_statusbar_settings">Additional statusbar settings</string>
+    <string name="additional_settings">Additional</string>
+    <string name="lockscreen_weather_title">Lockscreen weather</string>
+    <!-- Network traffic -->
+    <string name="network_traffic_settings_title">Network traffic monitor</string>
+    <string name="network_traffic_settings_summary">Display and customize current network traffic levels</string>
+    <string name="network_traffic_location_title">Location</string>
+    <string name="network_traffic_location_disable">Disabled</string>
+    <string name="network_traffic_location_statusbar">Statusbar</string>
+    <string name="network_traffic_location_quick_statusbar">Quick Statusbar</string>
+    <string name="network_traffic_mode_title">Display mode</string>
+    <string name="network_traffic_mode_up">Upload only</string>
+    <string name="network_traffic_mode_down">Download only</string>
+    <string name="network_traffic_mode_all">Upload and download</string>
+    <string name="network_traffic_autohide">Auto hide</string>
+    <string name="network_traffic_autohide_summary">Hide the traffic monitor when inactive</string>
+    <string name="network_traffic_autohide_kilobits">Kb/s</string>
+    <string name="network_traffic_autohide_kilobytes">KB/s</string>
+    <string name="network_traffic_autohide_threshold">Inactivity threshold</string>
+    <string name="network_traffic_refresh_interval_title">Refresh interval</string>
+    <string name="network_traffic_refresh_interval_summary">Duration after which speed is remeasured</string>
+    <string name="network_traffic_units_title">Traffic measurement units</string>
+    <string name="network_traffic_units_bits">Bits per second (b/s)</string>
+    <string name="network_traffic_units_kilobits">Kilobits per second (kb/s)</string>
+    <string name="network_traffic_units_megabits">Megabits per second (Mb/s)</string>
+    <string name="network_traffic_units_bytes">Bytes per second (B/s)</string>
+    <string name="network_traffic_units_kilobytes">Kilobytes per second (kB/s)</string>
+    <string name="network_traffic_units_megabytes">Megabytes per second (MB/s)</string>
+    <string name="network_traffic_hidearrow">Hide arrows</string>
+    <string name="network_traffic_hidearrow_summary">Hide the network traffic indicator arrows</string>
+    <!-- 4G icon -->
+    <string name="show_4g_icon_title">Use 4G icon</string>
+    <string name="show_4g_icon_summary">Show 4G icon instead of LTE</string>
+    <!-- Weather -->
+    <string name="weather_config_title">Weather</string>
+    <string name="weather_config_summary">Configure weather provider</string>
+    <string name="lockscreen_weather_location_title">Show location of weather on lockscreen</string>
+    <string name="lockscreen_weather_location_summary">Whether to show current location of weather nearby of the
+        conditions.
+    </string>
+    <!-- Interface -->
+    <string name="interface_category_title">Interface</string>
+    <string name="interface_category_summary">Customize lockscreen, themes and animations</string>
+    <!-- Interface: lockscreen weather -->
+    <string name="show_lockscreen_weather_title">Show weather on a lock screen</string>
+    <string name="show_lockscreen_weather_summary">Show current weather conditions when screen is locked</string>
+    <string name="lockscreen_weather_style_title">Show weather conditions on one line with date</string>
+    <string name="lockscreen_weather_style_summary">When disabled weather is shown on separate line under date</string>
+    <string name="weather_icon_pack_title">Weather icons</string>
+    <string name="lockscreen_weather_style_title">Pixel style</string>
+    <string name="lockscreen_weather_style_summary">Display weather as separate row</string>
+    <!-- QS datausage -->
+    <string name="qs_datausage_disabled">Disabled</string>
+    <string name="qs_datausage_daily">Daily</string>
+    <string name="qs_datausage_monthly">Monthly</string>
+    <string name="qs_datausage_title">Show datausage in quick settings</string>
+    <!-- Material dismiss all button -->
+    <string name="notification_material_dismiss_button_title">Floating button for clearing notifications</string>
+    <string name="notification_material_dismiss_button_summary">Replace clear all notification text with floating
+        button
+    </string>
+    <!-- Face unlock -->
+    <string name="security_settings_face_settings_footer_custom">[UNKNOWN STRING]</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Remove existing face scan and create a new
+        scan
+    </string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Redo face scan</string>
+    <string name="face_redo_confirm_btn">Redo</string>
+    <string name="face_redo_warning_msg">Do you want to remove the existing face scan and create a new one?</string>
+    <string name="face_unlock_method_title">Allow face unlock on lock screen</string>
+    <string name="face_unlock_method_default">When the screen is turned on</string>
+    <string name="face_unlock_method_swipe">When swiping on lock screen</string>
+    <!-- Three-Finger screenshot -->
+    <string name="three_finger_gesture">Swipe to screenshot</string>
+    <string name="three_finger_gesture_summary">Swipe three fingers to take screenshot</string>
+    <!-- Old mobiletype icon style -->
+    <string name="old_mobiletype_title">Old style signal icon</string>
+    <string name="old_mobiletype_summary">Merge signal and signal type icons</string>
+    <!-- Monet engine -->
+    <string name="monet_title">Monet settings</string>
+    <string name="monet_summary">Configure and customize your theme with Monet engine</string>
+    <string name="monet_engine_custom_color_title">Use custom color</string>
+    <string name="monet_engine_custom_color_summary">Use custom color for monet engine instead of wallpaper colors
+    </string>
+    <string name="monet_engine_color_override_title">Custom color</string>
+    <string name="monet_engine_white_luminance_user_title">White luminance</string>
+    <string name="monet_engine_accurate_shades_title">Use accurate shades</string>
+    <string name="monet_engine_chroma_factor_title">Chroma factor</string>
+    <string name="monet_engine_linear_lightness_title">Use linear lightness</string>
+    <!-- Color Picker -->
+    <string name="dialog_color_picker">Color Picker</string>
+    <string name="press_color_to_apply">Press on color below to apply</string>
+    <string name="arrow_right" translatable="false">→</string>
+    <string name="arrow_down" translatable="false">↓</string>
+    <string name="hex">Hex:</string>
+    <string name="hex_hint">#ff000000</string>
+    <string name="set">Set</string>
+    <string name="color_default">Default</string>
+    <!-- Icon shape -->
+    <string name="category_icon">Icon customization</string>
+    <string name="theme_customization_icon_pack_title">Icon pack</string>
+    <string name="theme_customization_icon_pack_summary">Set custom icon pack style</string>
+    <string name="theme_customization_icon_shape_title">Icon shape</string>
+    <string name="theme_customization_icon_shape_summary">Set system icon shape style</string>
+    <!-- UDFPS settings -->
+    <string name="udfps_settings_title">Fingerprint scanner</string>
+    <string name="udfps_settings_summary">Customize under-display fingerprint scanner</string>
+    <string name="udfps_icon_picker_title">Fingerprint scanner icon picker</string>
+    <string name="udfps_icon_picker_summary">Choose fingerprint scanner icon</string>
+    <string name="udfps_recog_animation_effect_title">Fingerprint recognition animation</string>
+    <string name="udfps_recog_animation_effect_summary">Choose animation of fingerprint scanning</string>
 </resources>
 
