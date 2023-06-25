@@ -29,10 +29,6 @@
                 android:persistent="false"/>
     </PreferenceCategory>
     <PreferenceCategory
-            android:title="@string/category_icon"
-            android:key="interface_icon_settings">
-    </PreferenceCategory>
-    <PreferenceCategory
             android:title="@string/lockscreen_category"
             android:key="lockscreen_category">
         <Preference
