@@ -13,6 +13,9 @@
     <string name="additional_statusbar_settings">Additional statusbar settings</string>
     <string name="additional_settings">Additional</string>
     <string name="lockscreen_weather_title">Lockscreen weather</string>
+    <string name="black_statusbar_background_title">Black statusbar background</string>
+    <string name="black_statusbar_background_description">Use black statusbar background instead of a transparent one
+    </string>
     <!-- Network traffic -->
     <string name="network_traffic_settings_title">Network traffic monitor</string>
     <string name="network_traffic_settings_summary">Display and customize current network traffic levels</string>

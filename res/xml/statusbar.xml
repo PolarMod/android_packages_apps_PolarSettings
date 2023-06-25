@@ -1,36 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
- <PreferenceScreen
-     xmlns:android="http://schemas.android.com/apk/res/android"
-     android:title="@string/statusbar_category_title"
-     android:key="statusbar"
-     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">   
-   <PreferenceCategory
-	   android:title="@string/network_icon_customization"
-	   android:key="network_icon_customization" >
-   <com.polar.settings.preferences.SystemSettingSwitchPreference
-       android:key="show_fourg_icon"
-       android:title="@string/show_4g_icon_title"
-       android:summary="@string/show_4g_icon_summary"
-       android:defaultValue="true"/>  
-  <com.polar.settings.preferences.SystemSettingSwitchPreference
-        android:key="use_old_mobiletype"
-        android:title="@string/old_mobiletype_title"
-	android:summary="@string/old_mobiletype_summary"
-	android:defaultValue="true"/>
-  </PreferenceCategory>
-  <PreferenceCategory
-	   android:title="@string/additional_statusbar_settings"
-	   android:key="additional_statusbar_settings">
-   <PreferenceScreen
-       android:key="network_traffic_settings"
-       android:title="@string/network_traffic_settings_title"
-       android:icon="@drawable/ic_traffic"
-       android:summary="@string/network_traffic_settings_summary"
-       android:fragment="com.polar.settings.fragments.statusbar.network.NetworkTrafficSettings" />
-   <com.polar.settings.preferences.SystemSettingSwitchPreference
-       android:key="notification_material_dismiss"
-       android:title="@string/notification_material_dismiss_button_title"
-       android:summary="@string/notification_material_dismiss_button_summary"
-       android:defaultValue="true" /> 
-   </PreferenceCategory>
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:title="@string/statusbar_category_title"
+        android:key="statusbar"
+        xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <PreferenceCategory
+            android:title="@string/network_icon_customization"
+            android:key="network_icon_customization">
+        <com.polar.settings.preferences.SystemSettingSwitchPreference
+                android:key="show_fourg_icon"
+                android:title="@string/show_4g_icon_title"
+                android:summary="@string/show_4g_icon_summary"
+                android:defaultValue="true"/>
+        <com.polar.settings.preferences.SystemSettingSwitchPreference
+                android:key="use_old_mobiletype"
+                android:title="@string/old_mobiletype_title"
+                android:summary="@string/old_mobiletype_summary"
+                android:defaultValue="true"/>
+    </PreferenceCategory>
+    <PreferenceCategory
+            android:title="@string/additional_statusbar_settings"
+            android:key="additional_statusbar_settings">
+        <PreferenceScreen
+                android:key="network_traffic_settings"
+                android:title="@string/network_traffic_settings_title"
+                android:icon="@drawable/ic_traffic"
+                android:summary="@string/network_traffic_settings_summary"
+                android:fragment="com.polar.settings.fragments.statusbar.network.NetworkTrafficSettings"/>
+        <com.polar.settings.preferences.SystemSettingSwitchPreference
+                android:key="notification_material_dismiss"
+                android:title="@string/notification_material_dismiss_button_title"
+                android:summary="@string/notification_material_dismiss_button_summary"
+                android:defaultValue="true"/>
+        <com.polar.settings.preferences.SystemSettingSwitchPreference
+                android:key="black_statusbar"
+                android:title="@string/black_statusbar_background_title"
+                android:summary="@string/black_statusbar_background_description"
+                android:defaultValue="true"/>
+    </PreferenceCategory>
 </PreferenceScreen>
