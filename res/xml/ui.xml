@@ -16,13 +16,17 @@
                 android:key="lockscreen_weather_location"
                 android:title="@string/lockscreen_weather_location_title"
                 android:summary="@string/lockscreen_weather_location_summary"
-                android:dependency="lockscreen_weather_enabled"/>
+                android:dependency="lockscreen_weather_enabled"
+                android:defaultValue="false"
+        />
         <com.polar.settings.preferences.SystemSettingSwitchPreference
                 android:key="lockscreen_weather_style"
                 android:icon="@drawable/ic_weather"
                 android:title="@string/lockscreen_weather_style_title"
                 android:summary="@string/lockscreen_weather_style_summary"
-                android:dependency="lockscreen_weather_enabled" />
+                android:dependency="lockscreen_weather_enabled"
+                android:defaultValue="false"
+        />
         <ListPreference
                 android:key="weather_icon_pack"
                 android:title="@string/weather_icon_pack_title"
