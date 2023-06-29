@@ -40,7 +40,7 @@ public class UI extends SettingsPreferenceFragment
 
   private static final String WEATHER_ICON_PACK = "weather_icon_pack";
   private static final String DEFAULT_WEATHER_ICON_PACKAGE = "org.omnirom.omnijaws";
-  private static final String DEFAULT_WEATHER_ICON_PREFIX = "outline";
+  private static final String DEFAULT_WEATHER_ICON_PREFIX = "google";
   private static final String WEATHER_SERVICE_PACKAGE = "org.omnirom.omnijaws";
   private static final String CHRONUS_ICON_PACK_INTENT = "com.dvtonder.chronus.ICON_PACK";
   private PreferenceCategory mWeatherCategory;
