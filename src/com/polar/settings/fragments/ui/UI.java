@@ -1,7 +1,6 @@
 package com.polar.settings.fragments.ui;
 
 
-import android.preference.Preference;
 import android.provider.SearchIndexableResource;
 import android.app.Fragment;
 import android.app.FragmentManager;
@@ -35,62 +34,34 @@ import java.util.List;
 import java.util.ArrayList;
 
 @SearchIndexable
-public class UI extends SettingsPreferenceFragment
-        implements Preference.OnPreferenceChangeListener, Indexable {
-    public static final SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
-            new BaseSearchIndexProvider() {
-                @Override
-                public List<SearchIndexableResource> getXmlResourcesToIndex(Context context,
-                                                                            boolean enabled) {
-                    ArrayList<SearchIndexableResource> result =
-                            new ArrayList<SearchIndexableResource>();
+public class UI extends SettingsPreferenceFragment 
+  implements Preference.OnPreferenceChangeListener, Indexable{
+  private static final String TAG = "Settings.PolarSettings.fragments.UI";
 
-                    SearchIndexableResource sir = new SearchIndexableResource(context);
-                    sir.xmlResId = R.xml.ui;
-                    result.add(sir);
-                    return result;
-                }
+  private static final String WEATHER_ICON_PACK = "weather_icon_pack";
+  private static final String DEFAULT_WEATHER_ICON_PACKAGE = "org.omnirom.omnijaws";
+  private static final String DEFAULT_WEATHER_ICON_PREFIX = "outline";
+  private static final String WEATHER_SERVICE_PACKAGE = "org.omnirom.omnijaws";
+  private static final String CHRONUS_ICON_PACK_INTENT = "com.dvtonder.chronus.ICON_PACK";
+  private PreferenceCategory mWeatherCategory;
+  private PreferenceCategory mLockscreenCategory;
+  private ListPreference mWeatherIconPack;
 
-                @Override
-                public List<String> getNonIndexableKeys(Context context) {
-                    List<String> keys = super.getNonIndexableKeys(context);
-                    return keys;
-                }
-            };
-    private static final String TAG = "Settings.PolarSettings.fragments.UI";
-    private static final String WEATHER_ICON_PACK = "weather_icon_pack";
-    private static final String DEFAULT_WEATHER_ICON_PACKAGE = "org.omnirom.omnijaws";
-    private static final String DEFAULT_WEATHER_ICON_PREFIX = "outline";
-    private static final String WEATHER_SERVICE_PACKAGE = "org.omnirom.omnijaws";
-    private static final String CHRONUS_ICON_PACK_INTENT = "com.dvtonder.chronus.ICON_PACK";
-    private PreferenceCategory mWeatherCategory;
-    private PreferenceCategory mLockscreenCategory;
-    private ListPreference mWeatherIconPack;
-    private Preference mWeatherSwitch;
-
-    @Override
-    public void onCreate(Bundle savedInstanceState) {
+  @Override
+  public void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.ui);
         final PreferenceScreen prefScreen = getPreferenceScreen();
 
-        mLockscreenCategory = (PreferenceCategory) findPreference("lockscreen_category");
-        mWeatherSwitch = (Preference) findPreference("lockscreen_weather_enabled");
-
-        if(!isOmniJawsEnabled()){
-            mWeatherSwitch.setEnabled(false);
-            resetWeatherSettings();
-        } else {
-            mWeatherSwitch.setEnabled(true);
-        }
+	mLockscreenCategory = (PreferenceCategory) findPreference("lockscreen_category"); 
 
         String settingHeaderPackage = Settings.System.getString(getContentResolver(),
-                Settings.System.OMNIJAWS_WEATHER_ICON_PACK);
+                    Settings.System.OMNIJAWS_WEATHER_ICON_PACK);
         if (settingHeaderPackage == null) {
-            settingHeaderPackage = DEFAULT_WEATHER_ICON_PACKAGE + "." + DEFAULT_WEATHER_ICON_PREFIX;
+              settingHeaderPackage = DEFAULT_WEATHER_ICON_PACKAGE + "." + DEFAULT_WEATHER_ICON_PREFIX;
         }
         mWeatherIconPack = (ListPreference) findPreference(WEATHER_ICON_PACK);
-
+     
         final boolean udfpsResPkgInstalled = Utils.isPackageInstalled(getContext(),
                 "com.polar.udfps.animations");
         List<String> entries = new ArrayList<String>();
@@ -101,21 +72,21 @@ public class UI extends SettingsPreferenceFragment
 
         int valueIndex = mWeatherIconPack.findIndexOfValue(settingHeaderPackage);
         if (valueIndex == -1) {
-            // no longer found
+                // no longer found
             settingHeaderPackage = DEFAULT_WEATHER_ICON_PACKAGE + "." + DEFAULT_WEATHER_ICON_PREFIX;
             Settings.System.putString(getContentResolver(),
-                    Settings.System.OMNIJAWS_WEATHER_ICON_PACK, settingHeaderPackage);
+                        Settings.System.OMNIJAWS_WEATHER_ICON_PACK, settingHeaderPackage);
             valueIndex = mWeatherIconPack.findIndexOfValue(settingHeaderPackage);
         }
         mWeatherIconPack.setValueIndex(valueIndex >= 0 ? valueIndex : 0);
         mWeatherIconPack.setSummary(mWeatherIconPack.getEntry());
         mWeatherIconPack.setOnPreferenceChangeListener(this);
-        if (!udfpsResPkgInstalled) {
-            prefScreen.removePreference(mLockscreenCategory);
-        }
-    }
+	if (!udfpsResPkgInstalled){
+		prefScreen.removePreference(mLockscreenCategory);
+	}
+   }
 
-    private void getAvailableWeatherIconPacks(List<String> entries, List<String> values) {
+  private void getAvailableWeatherIconPacks(List<String> entries, List<String> values) {
         Intent i = new Intent();
         PackageManager packageManager = getPackageManager();
         i.setAction("org.omnirom.WeatherIconPack");
@@ -149,7 +120,7 @@ public class UI extends SettingsPreferenceFragment
         }
     }
 
-    public boolean onPreferenceChange(Preference preference, Object objValue) {
+  public boolean onPreferenceChange(Preference preference, Object objValue) {
         if (preference == mWeatherIconPack) {
             String value = (String) objValue;
             Settings.System.putString(getContentResolver(),
@@ -160,12 +131,12 @@ public class UI extends SettingsPreferenceFragment
         return true;
     }
 
-    private boolean isOmniJawsEnabled() {
+  private boolean isOmniJawsEnabled() {
         final Uri SETTINGS_URI
-                = Uri.parse("content://org.omnirom.omnijaws.provider/settings");
+            = Uri.parse("content://org.omnirom.omnijaws.provider/settings");
 
-        final String[] SETTINGS_PROJECTION = new String[]{
-                "enabled"
+        final String[] SETTINGS_PROJECTION = new String[] {
+            "enabled"
         };
 
         final Cursor c = getContentResolver().query(SETTINGS_URI, SETTINGS_PROJECTION,
@@ -179,17 +150,30 @@ public class UI extends SettingsPreferenceFragment
             }
         }
         return true;
-    }
+  }
+  @Override
+  public int getMetricsCategory() {
+    return MetricsEvent.POLAR_SETTINGS;
+  }
 
-    @Override
-    public int getMetricsCategory() {
-        return MetricsEvent.POLAR_SETTINGS;
-    }
+  public static final SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
+    new BaseSearchIndexProvider() {
+                @Override
+                public List<SearchIndexableResource> getXmlResourcesToIndex(Context context,
+                                                                            boolean enabled) {
+                    ArrayList<SearchIndexableResource> result =
+                            new ArrayList<SearchIndexableResource>();
 
-    private void resetWeatherSettings(){
-        Settings.System.putIntForUser(resolver,
-                Settings.System.LOCKSCREEN_WEATHER_LOCATION, 0, UserHandle.USER_CURRENT);
-        Settings.System.putIntForUser(resolver,
-                Settings.System.LOCKSCREEN_WEATHER_ENABLED, 0, UserHandle.USER_CURRENT);
-    }
+                    SearchIndexableResource sir = new SearchIndexableResource(context);
+                    sir.xmlResId = R.xml.ui;
+                    result.add(sir);
+                    return result;
+                }
+
+                @Override
+                public List<String> getNonIndexableKeys(Context context) {
+                    List<String> keys = super.getNonIndexableKeys(context);
+                    return keys;
+                }
+   };
 }
