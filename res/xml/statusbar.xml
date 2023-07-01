@@ -34,8 +34,7 @@
                 android:max="10000"
                 settings:min="0"
                 settings:units="@string/network_traffic_autohide_kilobytes"
-                settings:interval="10"
-                android:dependency="network_traffic_autohide"/>
+                settings:interval="10"/>
     </PreferenceCategory>
     <PreferenceCategory
             android:title="@string/additional_statusbar_settings"
