@@ -32,7 +32,7 @@
                 android:title="@string/network_traffic_autohide_threshold"
                 android:defaultValue="false"
                 settings:interval="10"
-                android:dependcy="network_traffic_state"
+                android:dependency="network_traffic_state"
         />
     </PreferenceCategory>
     <PreferenceCategory
