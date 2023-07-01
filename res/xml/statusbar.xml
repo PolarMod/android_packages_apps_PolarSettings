@@ -19,14 +19,27 @@
                 android:defaultValue="false"/>
     </PreferenceCategory>
     <PreferenceCategory
+            android:title="@string/network_traffic_settings"
+            android:key="network_traffic_settings">
+        <com.polar.settings.preferences.SystemSettingSwitchPreference
+                android:key="network_traffic_state"
+                android:title="@string/network_traffic_state_title"
+                android:summary="@string/network_traffic_state_summary"
+                android:defaultValue="false"
+        />
+        <com.polar.settings.preferences.SystemSettingSeekBarPreference
+                android:key="network_traffic_autohide_threshold"
+                android:title="@string/network_traffic_autohide_threshold"
+                android:defaultValue="0"
+                android:max="10000"
+                settings:min="0"
+                settings:units="@string/network_traffic_autohide_kilobytes"
+                settings:interval="10"
+                android:dependency="network_traffic_autohide"/>
+    </PreferenceCategory>
+    <PreferenceCategory
             android:title="@string/additional_statusbar_settings"
             android:key="additional_statusbar_settings">
-        <PreferenceScreen
-                android:key="network_traffic_settings"
-                android:title="@string/network_traffic_settings_title"
-                android:icon="@drawable/ic_traffic"
-                android:summary="@string/network_traffic_settings_summary"
-                android:fragment="com.polar.settings.fragments.statusbar.network.NetworkTrafficSettings"/>
         <com.polar.settings.preferences.SystemSettingSwitchPreference
                 android:key="black_statusbar"
                 android:title="@string/black_statusbar_background_title"
