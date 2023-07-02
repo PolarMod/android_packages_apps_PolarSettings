@@ -1,70 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Auxilary strings -->
   <string name="unit_seconds"> секунд(и)</string>
   <string name="polar_settings">Додаткові налаштування</string>
   <string name="statusbar_category_title">Рядок стану та швидкі налаштування</string>
-  <string name="statusbar_category_summary">Налаштуйте рядок стану, область швидких налаштування та повідомлень</string> 
+  <string name="statusbar_category_summary">Налаштуйте рядок стану, область швидких налаштування та повідомлень</string>
+  <string name="enable">Увімкнути</string>
+  <string name="disable">Вимкнути</string>
   <string name="lockscreen_category">Налаштування екрану блокування</string>
   <!-- Statusbar strings -->
-  <string name="network_icon_customization">Індікатор мобілної мережі</string>
-  <string name="additional_statusbar_settings">Додаткові налаштування</string>
-  <!-- UI strings -->
+  <string name="network_icon_customization">Індікатор мобільної мережі</string>
+  <string name="additional_statusbar_settings">Додаткові налаштування рядка стану</string>
   <string name="additional_settings">Додаткові налаштування</string>
   <string name="lockscreen_weather_title">Погода на екрані блокування</string>
+  <string name="black_statusbar_background_title">Чорне тло рядка стану</string>
+  <string name="black_statusbar_background_description">Використати чорне тло рядка стану замість прозорого
+  </string>
   <!-- Network traffic -->
-  <string name="network_traffic_settings_title">Індикатор мережевого трафіку</string>
-  <string name="network_traffic_settings_summary">Показувати поточну швидкість мережі в рядку стану</string>
-  <string name="network_traffic_location_title">Місцезнаходження</string>
-  <string name="network_traffic_location_disable">Вимкнено</string>
-  <string name="network_traffic_location_statusbar">Рядок стану</string>
-  <string name="network_traffic_location_quick_statusbar">Рядок стану швидких налаштувань</string>
-  <string name="network_traffic_mode_title">Режим відображення</string>
-  <string name="network_traffic_mode_up">Тільки вихідний трафік</string>
-  <string name="network_traffic_mode_down">Тільки вхідний трафік</string>
-  <string name="network_traffic_mode_all">Вихідний і вхідний трафік</string>
-  <string name="network_traffic_autohide">Приховувати автоматично</string>
-  <string name="network_traffic_autohide_summary">Приховувати індикатор трафіку, коли відсутня активність</string>
-  <string name="network_traffic_autohide_kilobits">Кб/с</string>
-  <string name="network_traffic_autohide_kilobytes">КБ/с</string>
-  <string name="network_traffic_autohide_threshold">Поріг неактивності</string>
-  <string name="network_traffic_refresh_interval_title">Інтервал оновлення</string>
-  <string name="network_traffic_refresh_interval_summary">Проміжок часу оновлення швидкості</string>
-  <string name="network_traffic_units_title">Одиниці виміру трафіку</string>
-  <string name="network_traffic_units_bits">Біт за секунду (б/с)</string>
-  <string name="network_traffic_units_kilobits">Кілобіт за секунду (кб/с)</string>
-  <string name="network_traffic_units_megabits">Мегабіт за секунду (Мб/с)</string>
-  <string name="network_traffic_units_bytes">Байт за секунду (Б/с)</string>
-  <string name="network_traffic_units_kilobytes">Кілобайт за секунду (кБ/с)</string>
-  <string name="network_traffic_units_megabytes">Мегабайт за секунду (МБ/с)</string>
-  <string name="network_traffic_hidearrow">Приховати стрілки</string>
-  <string name="network_traffic_hidearrow_summary">Приховати стрілки в індикаторі трафіку</string>
+  <string name="network_traffic_settings">Мережевий трафік</string>
+  <string name="network_traffic_state_title">Індікатор мережевого трафіку</string>
+  <string name="network_traffic_state_summary">Увімкнути індикацію мережевого трафіку у рядку стану</string>
+  <string name="network_traffic_autohide_threshold_title">Автоматично приховувати індикатор мережевого трафіку</string>
+  <string name="network_traffic_autohide_threshold_summary">Приховати індікатор мережевого трафіку, коли нема мережевої активності
+  </string>
   <!-- 4G icon -->
   <string name="show_4g_icon_title">Використати іконку 4G</string>
-  <string name="show_4g_icon_summary">Використати іконку 4G замість LTE</string>  
-  <!-- Weather -->  
+  <string name="show_4g_icon_summary">Використати іконку 4G замість LTE</string>
+  <!-- Weather -->
   <string name="weather_config_title">Погода</string>
-  <string name="weather_config_summary">Налаштування системного постачальника погоди</string> 
+  <string name="weather_config_summary">Налаштування системного постачальника погоди</string>
   <!-- Interface -->
   <string name="interface_category_title">Інтерфейс</string>
-  <string name="interface_category_summary">Налаштуйте екран блокування, теми та анімаціі</string>  
-  <!-- Interface: lockscreen weather -->  
+  <string name="interface_category_summary">Налаштуйте екран блокування, теми та анімації</string>
+  <!-- Interface: lockscreen weather -->
   <string name="show_lockscreen_weather_title">Показувати погоду на екрані блокування</string>
-  <string name="show_lockscreen_weather_summary">Показати погодні умови, коли екран заблокован</string>
-  <string name="lockscreen_weather_style_title">Показати погодні умови на одному рядку с датою</string>
-  <string name="lockscreen_weather_style_summary">Коли, вимкнено погодні умови будуть показні на окремому рядку с назвою міста</string>  
+  <string name="show_lockscreen_weather_summary">Показати поточні погодні умови, коли екран заблоковано</string>
   <string name="weather_icon_pack_title">Іконки погоди</string>
+  <string name="lockscreen_weather_location_title">Показати поточне місцезнаходження</string>
+  <string name="lockscreen_weather_location_summary">Показати місцезнаходження для погодних умов біля значка погоди
+  </string>
   <!-- Three-Finger screenshot -->
   <string name="three_finger_gesture">Проведіть для скріншоту</string>
-  <string name="three_finger_gesture_summary">Проведіть тремя пальцями для створення знімку екрану</string>
-  <!-- Material dismiss notification button -->
-  <string name="notification_material_dismiss_button_title">Плаваюча кнопка для очищення повідомлень</string>
-  <string name="notification_material_dismiss_button_summary">Замінити текст "Очистити усе" на плаваючу кнопку</string>   
-  <!-- Icon customization -->
-  <string name="category_icon">Налаштування значків</string>
-  <string name="theme_customization_icon_pack_title">Тема значків</string>
-  <string name="theme_customization_icon_pack_summary">Змінити сістемну тему значків</string>
-  <string name="theme_customization_icon_shape_title">Форма значків</string>
-  <string name="theme_customization_icon_shape_summary">Змінити сістемну форму значків</string>
+  <string name="three_finger_gesture_summary">Проведіть трьома пальцями для створення знімка екрану</string>
   <!-- Old mobiletype icon style -->
   <string name="old_mobiletype_title">Значок мобільної мережі у старом стілі</string>
   <string name="old_mobiletype_summary">Об\'єднати значок потужності сігналу та тип мережі</string>

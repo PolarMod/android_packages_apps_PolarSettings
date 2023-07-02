@@ -29,7 +29,8 @@
         />
         <com.polar.settings.preferences.SystemSettingSwitchPreference
                 android:key="network_traffic_autohide_threshold"
-                android:title="@string/network_traffic_autohide_threshold"
+                android:title="@string/network_traffic_autohide_threshold_title"
+                android:summary="@string/network_traffic_autohide_threshold_summary"
                 android:defaultValue="false"
                 settings:interval="10"
                 android:dependency="network_traffic_state"

@@ -11,33 +11,15 @@
   <!-- Statusbar strings -->
   <string name="network_icon_customization">Значок мобильной сети</string>
   <string name="additional_statusbar_settings">Дополнительные настройки</string>
+  <string name="black_statusbar_background_title">Чорне тло рядка стану</string>
+  <string name="black_statusbar_background_description">Використати чорне тло рядка стану замість прозорого
+  </string>
   <!-- Network traffic -->
-  <string name="network_traffic_settings_title">Монитор сетевого трафика</string>
-  <string name="network_traffic_settings_summary">Отображение и настройка текущего уровня сетевого трафика</string>
-  <string name="network_traffic_location_title">Местоположение</string>
-  <string name="network_traffic_location_disable">Отключено</string>
-  <string name="network_traffic_location_statusbar">Строка состояния</string>
-  <string name="network_traffic_location_quick_statusbar">Быстрая строка состояния</string>
-  <string name="network_traffic_mode_title">Режим отображения</string>
-  <string name="network_traffic_mode_up">Только исходящий</string>
-  <string name="network_traffic_mode_down">Только загрузка</string>
-  <string name="network_traffic_mode_all">Загрузить и скачать</string>
-  <string name="network_traffic_autohide">Автоскрытие</string>
-  <string name="network_traffic_autohide_summary">Скрыть монитор трафика, когда сеть неактивена</string>
-  <string name="network_traffic_autohide_kilobits">Кб/с</string>
-  <string name="network_traffic_autohide_kilobytes">КБ/с</string>
-  <string name="network_traffic_autohide_threshold">Порог неактивности</string>
-  <string name="network_traffic_refresh_interval_title">Интервал обновления</string>
-  <string name="network_traffic_refresh_interval_summary">Продолжительность, после которого скорость будет измеряться повторно</string>
-  <string name="network_traffic_units_title">Единицы измерения трафика</string>
-  <string name="network_traffic_units_bits">Бит в секунду (бит/с)</string>
-  <string name="network_traffic_units_kilobits">Килобит в секунду (кбит/с)</string>
-  <string name="network_traffic_units_megabits">Мегабит в секунду (Мбит/с)</string>
-  <string name="network_traffic_units_bytes">Байт в секунду (Б/с)</string>
-  <string name="network_traffic_units_kilobytes">Килобайт в секунду (кБ/с)</string>
-  <string name="network_traffic_units_megabytes">Мегабайт в секунду (МБ/с)</string>
-  <string name="network_traffic_hidearrow">Скрыть стрелки</string>
-  <string name="network_traffic_hidearrow_summary">Скрывать стрелки индикатора сетевого трафика</string>
+  <string name="network_traffic_settings">Сетевой траффик</string>
+  <string name="network_traffic_state_title">Индикатор сетевого траффика</string>
+  <string name="network_traffic_state_summary">Показать сетевой траффик в строке состояния</string>
+  <string name="network_traffic_autohide_threshold_title">Убирать индикатор сетевого траффика автоматически</string>
+  <string name="network_traffic_autohide_threshold_summary">Спрятать индикатор сетевого траффика при отсутствии активности</string>
   <!-- 4G icon -->
   <string name="show_4g_icon_title">Использоать значок 4G</string>
   <string name="show_4g_icon_summary">Использоать значок 4G вместо LTE</string>  
@@ -53,6 +35,9 @@
   <string name="lockscreen_weather_style_title">Показать погодные условия на одной строке с датой</string>
   <string name="lockscreen_weather_style_summary">Когда, отключено погодные условия будут показны на отдельной строке с названием текущего города</string>  
   <string name="weather_icon_pack_title">Иконки погоды</string>
+  <string name="lockscreen_weather_location_title">Показать текущее местоположение</string>
+  <string name="lockscreen_weather_location_summary">Показать текущее местоположение погоды рядом с индикатором на экране блокировки
+  </string>
   <!-- Three-Finger screenshot -->
   <string name="three_finger_gesture">Проведите для скриншота</string>
   <string name="three_finger_gesture_summary">Проведите тремя палбцами для создания скриншота</string>
