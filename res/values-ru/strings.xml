@@ -60,4 +60,8 @@
   <string name="udfps_icon_picker_summary">Измените вид иконки сканера отпечатка пальца</string>
   <string name="udfps_recog_animation_effect_title">Анимация распознования отпечатка пальца</string>
   <string name="udfps_recog_animation_effect_summary">Измените анимацию распознования отпечатка пальца</string>
+  <!-- Black statusbar background -->
+  <string name="black_statusbar_background_title">Чёрный фон строки состояния</string>
+  <string name="black_statusbar_background_description">Использовать чёрный фон строки состояние вместо прозрачного
+  </string>
 </resources>
